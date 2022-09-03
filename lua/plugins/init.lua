@@ -43,11 +43,13 @@ packer.init({
 return packer.startup(function(use)
     -- My plugins here
 
-    -- " Conquer of Completion
+    -- Conquer of Completion
     -- Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 
-    -- " Functionalities
-    -- Plug 'airblade/vim-gitgutter'                   " Show git difference in the gutter
+    -- Functionalities
+    use 'wbthomason/packer.nvim'                        -- Packer can manage itself
+    use 'airblade/vim-gitgutter'                        -- Show git difference in the gutter
+    use 'scrooloose/nerdtree'                           -- Tree file explorer
     -- Plug 'alvan/vim-closetag'                       " Auto close HTML tags
     -- Plug 'andweeb/presence.nvim'                    " Discord Rich Presence plugin for Neovim
     -- Plug 'dyng/ctrlsf.vim'                          " Word search inside directory
@@ -55,7 +57,6 @@ return packer.startup(function(use)
     -- Plug 'junegunn/fzf.vim'                         " FZF.vim Search
     -- Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
     -- Plug 'rizzatti/dash.vim'                        " API Lookup
-    -- Plug 'scrooloose/nerdtree'                      " Tree file explorer
     -- Plug 'terryma/vim-multiple-cursors'             " Multiple Cursors
     -- Plug 'thaerkh/vim-workspace'                    " Persistent Vim Session
     -- Plug 'tomtom/tcomment_vim'                      " Comment out function
@@ -63,13 +64,13 @@ return packer.startup(function(use)
     -- Plug 'Valloric/MatchTagAlways'                  " HTML Tag Matcher
     -- Plug 'yggdroot/indentline'                      " Indent lines
 
-    -- " Syntax Highlight
+    -- Syntax Highlight
     -- Plug 'sheerun/vim-polyglot'                     " Language Pack
 
-    -- " Party tricks Plugin
+    -- Party tricks Plugin
     -- Plug 'mhinz/vim-startify'                       " Welcome message
 
-    -- " Design Plugin
+    -- Design Plugin
     -- Plug 'joshdick/onedark.vim'                     " One Dark Theme
     -- Plug 'ryanoasis/vim-devicons'                   " Devicons (Always load this last)
     -- Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
