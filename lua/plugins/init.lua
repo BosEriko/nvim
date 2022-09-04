@@ -71,10 +71,10 @@ return packer.startup(function(use)
 
     -- Design Plugin
     -- Plug 'joshdick/onedark.vim'                     " One Dark Theme
-    -- Plug 'ryanoasis/vim-devicons'                   " Devicons (Always load this last)
     -- Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
     -- Plug 'vim-airline/vim-airline'                  " Bottom toolbar
     -- Plug 'vim-airline/vim-airline-themes'           " Themes for the bottom toolbar
+    use 'ryanoasis/vim-devicons'                        -- Devicons (Always load this last)
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
