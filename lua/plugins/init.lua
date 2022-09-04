@@ -41,13 +41,15 @@ packer.init({
 
 -- Install your plugins here
 return packer.startup(function(use)
-    -- My plugins here
+    -- Make packer manage itself
+    use 'wbthomason/packer.nvim'
+
+    ----------------------------------------------------------------------------- [PLUGINS START] --
 
     -- Conquer of Completion
     -- Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 
     -- Functionalities
-    use 'wbthomason/packer.nvim'                        -- Packer can manage itself
     -- use 'airblade/vim-gitgutter'                        -- Show git difference in the gutter
     -- use 'scrooloose/nerdtree'                           -- Tree file explorer
     -- use 'alvan/vim-closetag'                            -- Auto close HTML tags
@@ -75,6 +77,8 @@ return packer.startup(function(use)
     -- Plug 'vim-airline/vim-airline'                  " Bottom toolbar
     -- Plug 'vim-airline/vim-airline-themes'           " Themes for the bottom toolbar
     -- use 'ryanoasis/vim-devicons'                        -- Devicons (Always load this last)
+
+    ------------------------------------------------------------------------------- [PLUGINS END] --
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
