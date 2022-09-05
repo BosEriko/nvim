@@ -66,18 +66,16 @@ set.listchars = { space = ' ', tab = '▸▸', eol = '¬', extends = '>', preced
 --   \ |   wincmd w
 --   \ | endif
 
--- " NERDTree
--- let NERDTreeMinimalUI                       = 1
--- let NERDTreeShowHidden                      = 1
--- let g:WebDevIconsUnicodeDecorateFolderNodes = 1
--- let g:DevIconsEnableFoldersOpenClose        = 1
-
 -- Enable nvim-tree
 require("nvim-tree").setup({
     view = {
         side = 'right'
     }
 })
+-- let NERDTreeMinimalUI                       = 1
+-- let NERDTreeShowHidden                      = 1
+-- let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+-- let g:DevIconsEnableFoldersOpenClose        = 1
 
 -- " Airline
 -- let g:airline_enable_branch               = 1
