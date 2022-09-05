@@ -17,11 +17,10 @@ local set = vim.opt
 set.number = true
 set.relativenumber = true
 
--- " Use system clipboard
--- set clipboard=unnamed
+-- Use system clipboard
+set.clipboard = 'unnamedplus'
 
--- " Stop line break
--- set nowrap
+-- Stop line break
 set.wrap = false
 
 -- " 2 spaces only for indentation
