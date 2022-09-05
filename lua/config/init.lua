@@ -18,7 +18,7 @@ set.number = true
 set.relativenumber = true
 
 -- Use system clipboard
-set.clipboard = 'unnamedplus'
+set.clipboard = 'unnamed'
 
 -- Stop line break
 set.wrap = false

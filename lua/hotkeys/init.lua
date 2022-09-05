@@ -1,17 +1,25 @@
 
 -- " ================================================================================ [Hotkeys] ===== "
 
+function map(mode, lhs, rhs, opts)
+    local options = { noremap = true }
+    if opts then
+        options = vim.tbl_extend("force", options, opts)
+    end
+    vim.api.nvim_set_keymap(mode, lhs, rhs, options)
+end
+
 -- " Change mapleader
 -- let mapleader="\<space>"
 
--- " Control Shortcuts
--- nnoremap <silent> <C-\> :NvimTreeToggle<CR>
--- nnoremap <silent> <C-t> :NvimTreeFindFile<CR>
--- nnoremap <silent> <C-h> :bp!<CR>
--- nnoremap <silent> <C-l> :bn!<CR>
--- nnoremap <silent> <C-x> :bd<CR>
--- nnoremap <silent> <C-q> :q<CR>
--- nnoremap <silent> <C-s> :w<CR>
+-- Control Shortcuts
+map("", "<C-\\>", ":NvimTreeToggle<CR>", { silent = true })
+map("", "<C-t>", ":NvimTreeFindFile<CR>", { silent = true })
+map("", "<C-h>", ":bp!<CR>", { silent = true })
+map("", "<C-l>", ":bn!<CR>", { silent = true })
+map("", "<C-x>", ":bd<CR>", { silent = true })
+map("", "<C-q>", ":q<CR>", { silent = true })
+map("", "<C-s>", ":w<CR>", { silent = true })
 -- nnoremap <silent> <C-c> :TComment<CR>
 -- nnoremap <silent> <C-k> :!open -a firefox "https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=b50d8f4a46a748a19cd7988e1d235a2e" --args --kiosk<CR>
 -- nnoremap <silent> <C-b> :let @+ = expand("%")<CR>
