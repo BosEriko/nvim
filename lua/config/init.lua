@@ -1,9 +1,6 @@
 
 -- " ================================================================================= [Config] ===== "
 
--- Enable nvim-tree
-require("nvim-tree").setup()
-
 -- " Set utf-8
 -- set encoding=utf-8
 
@@ -15,9 +12,9 @@ require("nvim-tree").setup()
 --   syntax enable
 -- endif
 
--- " Line numbers
--- set number
--- set relativenumber
+-- Line numbers
+vim.opt.number = true
+vim.opt.relativenumber = true
 
 -- " Use system clipboard
 -- set clipboard=unnamed
@@ -74,6 +71,9 @@ require("nvim-tree").setup()
 -- let NERDTreeShowHidden                      = 1
 -- let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 -- let g:DevIconsEnableFoldersOpenClose        = 1
+
+-- Enable nvim-tree
+require("nvim-tree").setup()
 
 -- " Airline
 -- let g:airline_enable_branch               = 1
