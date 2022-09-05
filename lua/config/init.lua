@@ -1,5 +1,6 @@
 
 -- " ================================================================================= [Config] ===== "
+local set = vim.opt
 
 -- " Set utf-8
 -- set encoding=utf-8
@@ -13,14 +14,15 @@
 -- endif
 
 -- Line numbers
-vim.opt.number = true
-vim.opt.relativenumber = true
+set.number = true
+set.relativenumber = true
 
 -- " Use system clipboard
 -- set clipboard=unnamed
 
 -- " Stop line break
 -- set nowrap
+set.wrap = false
 
 -- " 2 spaces only for indentation
 -- set tabstop=2
@@ -34,7 +36,7 @@ vim.opt.relativenumber = true
 -- set cursorline
 
 -- " Setlist Options
--- set listchars=eol:¬,tab:▸▸,trail:~,extends:>,precedes:<,space:·
+set.listchars = { space = ' ', tab = '▸▸', eol = '¬', extends = '>', precedes = '<', trail = '~' }
 
 -- " Search Settings
 -- set hlsearch
