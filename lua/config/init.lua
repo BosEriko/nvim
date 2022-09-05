@@ -67,14 +67,17 @@ set.listchars = { space = ' ', tab = '▸▸', eol = '¬', extends = '>', preced
 --   \ | endif
 
 -- " NERDTree
--- let g:NERDTreeWinPos                        = "right"
 -- let NERDTreeMinimalUI                       = 1
 -- let NERDTreeShowHidden                      = 1
 -- let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 -- let g:DevIconsEnableFoldersOpenClose        = 1
 
 -- Enable nvim-tree
-require("nvim-tree").setup()
+require("nvim-tree").setup({
+    view = {
+        side = 'right'
+    }
+})
 
 -- " Airline
 -- let g:airline_enable_branch               = 1
