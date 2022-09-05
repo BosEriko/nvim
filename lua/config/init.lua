@@ -55,8 +55,8 @@ set.listchars = { space = ' ', tab = '▸▸', eol = '¬', extends = '>', preced
 -- " Initialize FZF
 -- set rtp+=~/.fzf
 
--- " Set line length
--- set colorcolumn=100
+-- Set line length
+set.colorcolumn = '100'
 
 -- " NERDTree and Startify at startup
 -- autocmd VimEnter *
