@@ -5,8 +5,8 @@
 -- let mapleader="\<space>"
 
 -- " Control Shortcuts
--- nnoremap <silent> <C-\> :NERDTreeToggle<CR>
--- nnoremap <silent> <C-t> :NERDTreeFind<CR>
+-- nnoremap <silent> <C-\> :NvimTreeToggle<CR>
+-- nnoremap <silent> <C-t> :NvimTreeFindFile<CR>
 -- nnoremap <silent> <C-h> :bp!<CR>
 -- nnoremap <silent> <C-l> :bn!<CR>
 -- nnoremap <silent> <C-x> :bd<CR>

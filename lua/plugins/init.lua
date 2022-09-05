@@ -49,9 +49,17 @@ return packer.startup(function(use)
     -- Conquer of Completion
     -- Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 
+    -- Tree file explorer
+    use {
+        'kyazdani42/nvim-tree.lua',
+        requires = {
+            'kyazdani42/nvim-web-devicons',
+        },
+        tag = 'nightly'
+    }
+
     -- Functionalities
     -- use 'airblade/vim-gitgutter'                        -- Show git difference in the gutter
-    use 'scrooloose/nerdtree'                           -- Tree file explorer
     -- use 'alvan/vim-closetag'                            -- Auto close HTML tags
     -- use 'dyng/ctrlsf.vim'                               -- Word search inside directory
     -- use 'junegunn/fzf'                                  -- FZF Search
@@ -75,8 +83,6 @@ return packer.startup(function(use)
     -- Plug 'joshdick/onedark.vim'                     " One Dark Theme
     -- Plug 'vim-airline/vim-airline'                  " Bottom toolbar
     -- Plug 'vim-airline/vim-airline-themes'           " Themes for the bottom toolbar
-    use 'tiagofumo/vim-nerdtree-syntax-highlight'  	-- Extra syntax and highlight for nerdtree files
-    use 'ryanoasis/vim-devicons'                        -- Devicons (Always load this last)
 
     ------------------------------------------------------------------------------- [PLUGINS END] --
 
