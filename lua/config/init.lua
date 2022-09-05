@@ -1,6 +1,9 @@
 
 -- " ================================================================================= [Config] ===== "
 
+-- Enable nvim-tree
+require("nvim-tree").setup()
+
 -- " Set utf-8
 -- set encoding=utf-8
 
