@@ -40,4 +40,3 @@ map("n", "<leader>r", ":g/^/m0<CR>", { silent = true })
 -- nnoremap <silent> <leader>s :Startify<CR>
 -- nnoremap <silent> <leader>t :ToggleWorkspace<CR>
 map("n", "<leader>w", ":set wrap!<CR>", { silent = true })
--- set pastetoggle=<leader>p
