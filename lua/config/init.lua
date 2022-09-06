@@ -1,9 +1,9 @@
 
--- " ================================================================================= [Config] ===== "
+---------------------------------------------------------------------------------------- [Config] --
 local set = vim.opt
 
--- " Set utf-8
--- set encoding=utf-8
+-- Set utf-8
+set.encoding = 'utf-8'
 
 -- Backspace Fix
 set.backspace = 'indent,eol,start'
@@ -23,10 +23,10 @@ set.clipboard = 'unnamed'
 -- Stop line break
 set.wrap = false
 
--- " 2 spaces only for indentation
--- set tabstop=2
--- set shiftwidth=2
--- set expandtab
+-- 2 spaces only for indentation
+set.tabstop = 2
+set.shiftwidth = 2
+set.expandtab = true
 
 -- " Show when <leader> is toggled
 -- set showcmd
