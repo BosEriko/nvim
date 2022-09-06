@@ -13,7 +13,7 @@ function map(mode, lhs, rhs, opts)
 end
 
 -- Change mapleader
-let.mapleader = "<space>"
+let.mapleader = " "
 
 -- Control Shortcuts
 map("", "<C-\\>", ":NvimTreeToggle<CR>", { silent = true })
@@ -30,7 +30,7 @@ map("", "<C-s>", ":w<CR>", { silent = true })
 -- nnoremap <C-g> :%s/old/new/g
 -- nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --exclude-standard --others --cached')."\<cr>"
 
--- " Leader Shortcuts
+-- Leader Shortcuts
 -- nnoremap <silent> <leader>d :Dash!<CR>
 -- nnoremap <silent> <leader>e :PlugInstall!<CR>
 -- nnoremap <silent> <leader>g :Git blame<CR>
@@ -40,5 +40,5 @@ map("", "<C-s>", ":w<CR>", { silent = true })
 -- nnoremap <silent> <leader>r :g/^/m0<CR>
 -- nnoremap <silent> <leader>s :Startify<CR>
 -- nnoremap <silent> <leader>t :ToggleWorkspace<CR>
--- nnoremap <silent> <leader>w :set wrap!<CR>
+map("n", "<leader>w", ":set wrap!<CR>", { silent = true })
 -- set pastetoggle=<leader>p
