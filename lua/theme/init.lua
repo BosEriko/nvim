@@ -23,7 +23,6 @@
 -- hi VertSplit ctermfg=bg ctermbg=bg
 -- hi ColorColumn ctermbg=bg
 -- hi EndOfBuffer ctermfg=bg ctermbg=bg
--- hi NonText ctermfg=237 guifg=grey23
 -- hi SpecialKey ctermfg=237 guifg=grey23
 -- hi StatusLine ctermbg=bg ctermfg=fg
 -- let g:fzf_colors =
