@@ -1,5 +1,8 @@
 
--- " ================================================================================ [Hotkeys] ===== "
+--------------------------------------------------------------------------------------- [Hotkeys] --
+
+-- Make it more like vimrc
+local let = vim.g
 
 function map(mode, lhs, rhs, opts)
     local options = { noremap = true }
@@ -9,8 +12,8 @@ function map(mode, lhs, rhs, opts)
     vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 
--- " Change mapleader
--- let mapleader="\<space>"
+-- Change mapleader
+let.mapleader = "<space>"
 
 -- Control Shortcuts
 map("", "<C-\\>", ":NvimTreeToggle<CR>", { silent = true })

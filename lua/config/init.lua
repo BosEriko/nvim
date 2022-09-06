@@ -1,5 +1,7 @@
 
 ---------------------------------------------------------------------------------------- [Config] --
+
+-- Make it more like vimrc
 local set = vim.opt
 
 -- Set utf-8
@@ -28,8 +30,8 @@ set.tabstop = 2
 set.shiftwidth = 2
 set.expandtab = true
 
--- " Show when <leader> is toggled
--- set showcmd
+-- Show when <leader> is toggled
+set.showcmd = true
 
 -- " Show which line you're at
 -- set cursorline
