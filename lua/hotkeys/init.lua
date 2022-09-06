@@ -35,7 +35,7 @@ map("", "<C-s>", ":w<CR>", { silent = true })
 -- nnoremap <silent> <leader>g :Git blame<CR>
 -- nnoremap <silent> <leader>l :set list!<CR>
 map("n", "<leader>n", ":noh<CR>", { silent = true })
--- nnoremap <silent> <leader>o :'<,'>sort<CR>
+map("n", "<leader>o", ":'<,'>sort<CR>", { silent = true })
 -- nnoremap <silent> <leader>r :g/^/m0<CR>
 -- nnoremap <silent> <leader>s :Startify<CR>
 -- nnoremap <silent> <leader>t :ToggleWorkspace<CR>
