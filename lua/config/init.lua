@@ -68,6 +68,9 @@ set.colorcolumn = '100'
 --   \ |   wincmd w
 --   \ | endif
 
+-- Enable gitsigns
+require('gitsigns').setup()
+
 -- Enable nvim-tree
 require("nvim-tree").setup({
     view = {

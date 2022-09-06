@@ -72,6 +72,7 @@ return packer.startup(function(use)
     -- use 'tpope/vim-fugitive'                            -- View any blob, tree, commit, or tag in the repository
     -- use 'Valloric/MatchTagAlways'                       -- HTML Tag Matcher
     -- use 'yggdroot/indentline'                           -- Indent lines
+    use 'lewis6991/gitsigns.nvim'                         -- Super fast git decorations implemented purely in lua/teal.
 
     -- Syntax Highlight
     -- Plug 'sheerun/vim-polyglot'                     " Language Pack
