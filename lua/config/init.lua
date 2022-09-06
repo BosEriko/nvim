@@ -5,8 +5,8 @@ local set = vim.opt
 -- " Set utf-8
 -- set encoding=utf-8
 
--- " Backspace Fix
--- set backspace=indent,eol,start
+-- Backspace Fix
+set.backspace = 'indent,eol,start'
 
 -- " Syntax highlighting
 -- if !exists("g:syntax_on")
