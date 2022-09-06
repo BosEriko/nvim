@@ -33,8 +33,8 @@ set.expandtab = true
 -- Show when <leader> is toggled
 set.showcmd = true
 
--- " Show which line you're at
--- set cursorline
+-- Show which line you're at
+set.cursorline = true
 
 -- " Setlist Options
 set.listchars = { space = ' ', tab = '▸▸', eol = '¬', extends = '>', precedes = '<', trail = '~' }
@@ -51,8 +51,8 @@ set.incsearch = true
 -- let &backupdir=vimtmp
 -- let &directory=vimtmp
 
--- " Remove vertical Split Character
--- set fillchars=""
+-- Remove ~ (End of Buffer) at the extra lines
+set.fillchars = { eob = ' ' }
 
 -- " Initialize FZF
 -- set rtp+=~/.fzf
