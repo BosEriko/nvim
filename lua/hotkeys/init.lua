@@ -31,7 +31,7 @@ map("", "<C-g>", ':%s/old/new/g')
 
 -- Leader Shortcuts
 -- nnoremap <silent> <leader>d :Dash!<CR>
--- nnoremap <silent> <leader>e :PlugInstall!<CR>
+map("n", "<leader>e", ":PackerSync<CR>", { silent = true })
 -- nnoremap <silent> <leader>g :Git blame<CR>
 map("n", "<leader>l", ":set list!<CR>", { silent = true })
 map("n", "<leader>n", ":noh<CR>", { silent = true })
