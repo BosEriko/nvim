@@ -1,4 +1,7 @@
 
+--------------------------------------------------------------------------------------- [Plugins] --
+
+-- Make it more like vimrc
 local fn = vim.fn
 
 -- Automatically install packer
