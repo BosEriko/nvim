@@ -39,11 +39,11 @@ set.showcmd = true
 -- " Setlist Options
 set.listchars = { space = ' ', tab = '▸▸', eol = '¬', extends = '>', precedes = '<', trail = '~' }
 
--- " Search Settings
--- set hlsearch
--- set ignorecase
--- set smartcase
--- set incsearch
+-- Search Settings
+set.hlsearch = true
+set.ignorecase = true
+set.smartcase = true
+set.incsearch = true
 
 -- " Store temporary files in a central spot
 -- let vimtmp = $HOME . '/.tmp/' . getpid()

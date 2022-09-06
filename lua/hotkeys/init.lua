@@ -35,7 +35,7 @@ map("", "<C-s>", ":w<CR>", { silent = true })
 -- nnoremap <silent> <leader>e :PlugInstall!<CR>
 -- nnoremap <silent> <leader>g :Git blame<CR>
 -- nnoremap <silent> <leader>l :set list!<CR>
--- nnoremap <silent> <leader>n :noh<CR>
+map("n", "<leader>n", ":noh<CR>", { silent = true })
 -- nnoremap <silent> <leader>o :'<,'>sort<CR>
 -- nnoremap <silent> <leader>r :g/^/m0<CR>
 -- nnoremap <silent> <leader>s :Startify<CR>
