@@ -33,7 +33,7 @@ map("", "<C-s>", ":w<CR>", { silent = true })
 -- nnoremap <silent> <leader>d :Dash!<CR>
 -- nnoremap <silent> <leader>e :PlugInstall!<CR>
 -- nnoremap <silent> <leader>g :Git blame<CR>
--- nnoremap <silent> <leader>l :set list!<CR>
+map("n", "<leader>l", ":set list!<CR>", { silent = true })
 map("n", "<leader>n", ":noh<CR>", { silent = true })
 map("n", "<leader>o", ":'<,'>sort<CR>", { silent = true })
 -- nnoremap <silent> <leader>r :g/^/m0<CR>
