@@ -49,9 +49,6 @@ return packer.startup(function(use)
 
     ----------------------------------------------------------------------------- [PLUGINS START] --
 
-    -- Conquer of Completion
-    -- Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
-
     -- Tree file explorer
     use {
         'kyazdani42/nvim-tree.lua',
@@ -95,15 +92,3 @@ return packer.startup(function(use)
         require("packer").sync()
     end
 end)
-
--- " ========================================================================= [COC Extensions] ===== "
--- let g:coc_global_extensions = [
---   \ 'coc-css',
---   \ 'coc-eslint',
---   \ 'coc-json',
---   \ 'coc-pairs',
---   \ 'coc-prettier',
---   \ 'coc-snippets',
---   \ 'coc-tslint',
---   \ 'coc-tsserver'
---   \ ]
