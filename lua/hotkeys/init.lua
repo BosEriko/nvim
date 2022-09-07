@@ -30,7 +30,7 @@ map("", "<C-g>", ':%s/old/new/g')
 -- nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --exclude-standard --others --cached')."\<cr>"
 
 -- Leader Shortcuts
--- nnoremap <silent> <leader>d :Dash!<CR>
+map("n", "<leader>d", ":DD<CR>", { silent = true })
 map("n", "<leader>e", ":PackerSync<CR>", { silent = true })
 map("n", "<leader>g", ":Gitsigns blame_line<CR>", { silent = true })
 map("n", "<leader>l", ":set list!<CR>", { silent = true })

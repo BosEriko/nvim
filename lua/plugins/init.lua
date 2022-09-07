@@ -66,6 +66,7 @@ return packer.startup(function(use)
     -- use 'junegunn/fzf.vim'                              -- FZF.vim Search
     -- use 'ngmy/vim-rubocop'                              -- The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
     -- use 'rizzatti/dash.vim'                             -- API Lookup
+    use 'romainl/vim-devdocs'                             -- API Lookup
     -- use 'terryma/vim-multiple-cursors'                  -- Multiple Cursors
     -- use 'thaerkh/vim-workspace'                         -- Persistent Vim Session
     -- use 'tomtom/tcomment_vim'                           -- Comment out function
