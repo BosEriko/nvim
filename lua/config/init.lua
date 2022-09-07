@@ -61,7 +61,8 @@ require("nvim-tree").setup({
 -- Enable lualine
 require('lualine').setup({
   options = {
-    theme = 'tokyonight'
+    theme = 'tokyonight',
+    disabled_filetypes = {'packer','NvimTree'}
   }
 })
 
