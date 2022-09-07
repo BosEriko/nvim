@@ -15,9 +15,8 @@
 --   endif
 -- endif
 
--- " Theme
--- colorscheme onedark
--- let g:airline_theme = 'onedark'
+-- Theme
+vim.cmd[[colorscheme tokyonight]]
 
 -- " Colors
 -- hi VertSplit ctermfg=bg ctermbg=bg

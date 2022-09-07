@@ -58,6 +58,13 @@ require("nvim-tree").setup({
     }
 })
 
+-- Enable lualine
+require('lualine').setup({
+  options = {
+    theme = 'tokyonight'
+  }
+})
+
 -- " NERDTree and Startify at startup
 -- autocmd VimEnter *
 --   \   if !argc()

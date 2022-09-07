@@ -82,9 +82,8 @@ return packer.startup(function(use)
     -- use 'mhinz/vim-startify'                            -- Welcome message
 
     -- Design Plugin
-    -- Plug 'joshdick/onedark.vim'                     " One Dark Theme
-    -- Plug 'vim-airline/vim-airline'                  " Bottom toolbar
-    -- Plug 'vim-airline/vim-airline-themes'           " Themes for the bottom toolbar
+    use 'folke/tokyonight.nvim'                           -- A dark and light Neovim theme written in Lua
+    use 'nvim-lualine/lualine.nvim'                       -- A blazing fast and easy to configure Neovim statusline written in Lua
 
     ------------------------------------------------------------------------------- [PLUGINS END] --
 
