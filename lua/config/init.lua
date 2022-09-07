@@ -41,7 +41,7 @@ set.smartcase = true
 set.incsearch = true
 
 -- Remove ~ (End of Buffer) at the extra lines
-set.fillchars = { eob = ' ' }
+set.fillchars = { eob = ' ', vert = ' ' }
 
 -- Set line length
 set.colorcolumn = '100'

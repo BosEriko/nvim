@@ -1,5 +1,5 @@
 
--- " ================================================================================== [Theme] ===== "
+----------------------------------------------------------------------------------------- [Theme] --
 
 -- " This file is for the theme, colors, icons and symbols configuration
 -- " For more icons to use you can go to:
