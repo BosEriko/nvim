@@ -69,7 +69,9 @@ set.colorcolumn = '100'
 --   \ | endif
 
 -- Enable gitsigns
-require('gitsigns').setup()
+require('gitsigns').setup({
+    current_line_blame = true
+})
 
 -- Enable nvim-tree
 require("nvim-tree").setup({
