@@ -23,7 +23,7 @@ map("", "<C-x>", ":bd<CR>", { silent = true })
 map("", "<C-q>", ":q<CR>", { silent = true })
 map("", "<C-s>", ":w<CR>", { silent = true })
 -- nnoremap <silent> <C-c> :TComment<CR>
--- nnoremap <silent> <C-k> :!open -a firefox "https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=b50d8f4a46a748a19cd7988e1d235a2e" --args --kiosk<CR>
+map("", "<C-k>", ':!cmd.exe /c start "https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=b50d8f4a46a748a19cd7988e1d235a2e" /b<CR>', { silent = true })
 map("", "<C-b>", ':let @+ = expand("%")<CR>', { silent = true })
 -- nnoremap <C-f> :CtrlSF<space>
 map("", "<C-g>", ':%s/old/new/g')
