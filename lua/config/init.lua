@@ -79,10 +79,6 @@ require("nvim-tree").setup({
         side = 'right'
     }
 })
--- let NERDTreeMinimalUI                       = 1
--- let NERDTreeShowHidden                      = 1
--- let g:WebDevIconsUnicodeDecorateFolderNodes = 1
--- let g:DevIconsEnableFoldersOpenClose        = 1
 
 -- " Airline
 -- let g:airline_enable_branch               = 1
