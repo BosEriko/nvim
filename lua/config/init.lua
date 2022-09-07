@@ -10,11 +10,6 @@ set.encoding = 'utf-8'
 -- Backspace Fix
 set.backspace = 'indent,eol,start'
 
--- " Syntax highlighting
--- if !exists("g:syntax_on")
---   syntax enable
--- endif
-
 -- Line numbers
 set.number = true
 set.relativenumber = true
