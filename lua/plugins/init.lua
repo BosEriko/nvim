@@ -58,6 +58,12 @@ return packer.startup(function(use)
         tag = 'nightly'
     }
 
+    -- Top bar
+    use {
+      'romgrk/barbar.nvim',
+      requires = {'kyazdani42/nvim-web-devicons'}
+    }
+
     -- Functionalities
     -- use 'airblade/vim-gitgutter'                        -- Show git difference in the gutter
     -- use 'alvan/vim-closetag'                            -- Auto close HTML tags
