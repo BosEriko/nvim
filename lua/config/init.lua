@@ -40,28 +40,11 @@ set.ignorecase = true
 set.smartcase = true
 set.incsearch = true
 
--- " Store temporary files in a central spot
--- let vimtmp = $HOME . '/.tmp/' . getpid()
--- silent! call mkdir(vimtmp, "p", 0700)
--- let &backupdir=vimtmp
--- let &directory=vimtmp
-
 -- Remove ~ (End of Buffer) at the extra lines
 set.fillchars = { eob = ' ' }
 
--- " Initialize FZF
--- set rtp+=~/.fzf
-
 -- Set line length
 set.colorcolumn = '100'
-
--- " NERDTree and Startify at startup
--- autocmd VimEnter *
---   \   if !argc()
---   \ |   Startify
---   \ |   NERDTree
---   \ |   wincmd w
---   \ | endif
 
 -- Enable gitsigns
 require('gitsigns').setup({
@@ -74,6 +57,23 @@ require("nvim-tree").setup({
         side = 'right'
     }
 })
+
+-- " NERDTree and Startify at startup
+-- autocmd VimEnter *
+--   \   if !argc()
+--   \ |   Startify
+--   \ |   NERDTree
+--   \ |   wincmd w
+--   \ | endif
+
+-- " Initialize FZF
+-- set rtp+=~/.fzf
+
+-- " Store temporary files in a central spot
+-- let vimtmp = $HOME . '/.tmp/' . getpid()
+-- silent! call mkdir(vimtmp, "p", 0700)
+-- let &backupdir=vimtmp
+-- let &directory=vimtmp
 
 -- " Airline
 -- let g:airline_enable_branch               = 1
