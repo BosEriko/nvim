@@ -47,6 +47,9 @@ return packer.startup(function(use)
     -- Make packer manage itself
     use 'wbthomason/packer.nvim'
 
+    -- Dependency of most plugins
+    use 'nvim-lua/plenary.nvim'
+
     ----------------------------------------------------------------------------- [PLUGINS START] --
 
     -- Tree file explorer
