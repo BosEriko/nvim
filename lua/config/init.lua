@@ -59,6 +59,7 @@ require('gitsigns').setup({
 -- Enable nvim-tree
 require('nvim-tree').setup({
   view = {
+    width = 40,
     side = 'right',
     hide_root_folder = true
   },
