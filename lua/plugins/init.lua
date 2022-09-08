@@ -53,29 +53,23 @@ return packer.startup(function(use)
 
     ----------------------------------------------------------------------------- [PLUGINS START] --
 
-    -- Tree file explorer
-    use 'kyazdani42/nvim-tree.lua'
-
-    -- Top bar
-    use 'romgrk/barbar.nvim'
-
     -- Functionalities
-    -- use 'alvan/vim-closetag'                            -- Auto close HTML tags
-    -- use 'ngmy/vim-rubocop'                              -- The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
+    use 'kyazdani42/nvim-tree.lua'                        -- Tree Explorer
+    use 'romgrk/barbar.nvim'                              -- Top bar list
+    use 'nvim-telescope/telescope.nvim'                   -- Fuzzy Finder and Word Search
     use 'romainl/vim-devdocs'                             -- API Lookup
-    -- use 'terryma/vim-multiple-cursors'                  -- Multiple Cursors
-    -- use 'thaerkh/vim-workspace'                         -- Persistent Vim Session
     use 'numToStr/Comment.nvim'                           -- Comment out function
-    -- use 'tpope/vim-fugitive'                            -- View any blob, tree, commit, or tag in the repository
-    -- use 'Valloric/MatchTagAlways'                       -- HTML Tag Matcher
     use 'lukas-reineke/indent-blankline.nvim'             -- Indent lines
     use 'lewis6991/gitsigns.nvim'                         -- Super fast git decorations implemented purely in lua/teal.
+    -- use 'alvan/vim-closetag'                            -- Auto close HTML tags
+    -- use 'ngmy/vim-rubocop'                              -- The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
+    -- use 'terryma/vim-multiple-cursors'                  -- Multiple Cursors
+    -- use 'thaerkh/vim-workspace'                         -- Persistent Vim Session
+    -- use 'tpope/vim-fugitive'                            -- View any blob, tree, commit, or tag in the repository
+    -- use 'Valloric/MatchTagAlways'                       -- HTML Tag Matcher
 
     -- Syntax Highlight
     -- Nvim Treesitter?
-
-    -- Fuzzy Finder and Word Search
-    use 'nvim-telescope/telescope.nvim'
 
     -- Design Plugin
     use 'folke/tokyonight.nvim'                           -- A dark and light Neovim theme written in Lua
