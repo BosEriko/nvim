@@ -46,13 +46,18 @@ set.fillchars = { eob = ' ', vert = ' ' }
 -- Set line length
 set.colorcolumn = '100'
 
+-- Enable Indend Blankline
+require('indent_blankline').setup({
+  filetype_exclude = { 'packer','NvimTree' }
+})
+
 -- Enable gitsigns
 require('gitsigns').setup({
     current_line_blame = true
 })
 
 -- Enable nvim-tree
-require("nvim-tree").setup({
+require('nvim-tree').setup({
     view = {
         side = 'right'
     }
@@ -62,7 +67,7 @@ require("nvim-tree").setup({
 require('lualine').setup({
   options = {
     theme = 'tokyonight',
-    disabled_filetypes = {'packer','NvimTree'}
+    disabled_filetypes = { 'packer','NvimTree' }
   }
 })
 

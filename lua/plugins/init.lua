@@ -78,7 +78,7 @@ return packer.startup(function(use)
     -- use 'tomtom/tcomment_vim'                           -- Comment out function
     -- use 'tpope/vim-fugitive'                            -- View any blob, tree, commit, or tag in the repository
     -- use 'Valloric/MatchTagAlways'                       -- HTML Tag Matcher
-    -- use 'yggdroot/indentline'                           -- Indent lines
+    use 'lukas-reineke/indent-blankline.nvim'             -- Indent lines
     use 'lewis6991/gitsigns.nvim'                         -- Super fast git decorations implemented purely in lua/teal.
 
     -- Syntax Highlight
