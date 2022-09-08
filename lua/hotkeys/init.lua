@@ -36,8 +36,6 @@ map("n", "<leader>l", ":set list!<CR>", { silent = true })
 map("n", "<leader>n", ":noh<CR>", { silent = true })
 map("n", "<leader>o", ":'<,'>sort<CR>", { silent = true })
 map("n", "<leader>r", ":g/^/m0<CR>", { silent = true })
--- nnoremap <silent> <leader>s :Startify<CR>
--- nnoremap <silent> <leader>t :ToggleWorkspace<CR>
 map("n", "<leader>f", ":HopChar1<CR>", { silent = true })
 map("n", "<leader>w", ":set wrap!<CR>", { silent = true })
 
