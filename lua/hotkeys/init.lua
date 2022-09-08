@@ -40,4 +40,20 @@ map("n", "<leader>r", ":g/^/m0<CR>", { silent = true })
 -- nnoremap <silent> <leader>t :ToggleWorkspace<CR>
 map("n", "<leader>w", ":set wrap!<CR>", { silent = true })
 
--- Note: <C-c> keys are mapped inside config/init.lua
+-- Comments Shortcuts
+require('Comment').setup({
+  toggler = {
+    line = '<C-c>cc',
+    block = '<C-c>bc',
+  },
+  opleader = {
+    line = '<C-c>c',
+    block = '<C-c>b',
+  },
+  extra = {
+    above = '<C-c>cO',
+    below = '<C-c>co',
+    eol = '<C-c>cA',
+  },
+})
+
