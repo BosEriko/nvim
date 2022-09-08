@@ -7,8 +7,8 @@
 
 local lsp = require('lspconfig')
 local servers = {
-  'tsserver',
-  'solargraph'
+  'tsserver',                   -- TypeScript
+  'solargraph',                 -- Ruby
 }
 
 for _, server in ipairs(servers) do
