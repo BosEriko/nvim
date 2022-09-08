@@ -51,12 +51,12 @@ require('indent_blankline').setup({
   filetype_exclude = { 'packer','NvimTree' }
 })
 
--- Enable gitsigns
+-- Enable gitsigns (Git support)
 require('gitsigns').setup({
     current_line_blame = true
 })
 
--- Enable nvim-tree
+-- Enable nvim-tree (File explorer)
 require('nvim-tree').setup({
   view = {
     width = 40,
@@ -84,7 +84,7 @@ require('nvim-tree').setup({
   }
 })
 
--- Enable lualine
+-- Enable lualine (Statusbar)
 require('lualine').setup({
   options = {
     theme = 'tokyonight',
