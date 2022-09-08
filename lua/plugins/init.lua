@@ -74,11 +74,8 @@ return packer.startup(function(use)
     -- Syntax Highlight
     -- Nvim Treesitter?
 
-    -- Fuzzy Search
+    -- Fuzzy Finder and Word Search
     use 'nvim-telescope/telescope.nvim'
-
-    -- Word Search
-    -- Telescope, too? With ripgrep?
 
     -- Design Plugin
     use 'folke/tokyonight.nvim'                           -- A dark and light Neovim theme written in Lua
