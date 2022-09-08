@@ -53,19 +53,10 @@ return packer.startup(function(use)
     ----------------------------------------------------------------------------- [PLUGINS START] --
 
     -- Tree file explorer
-    use {
-        'kyazdani42/nvim-tree.lua',
-        requires = {
-            'kyazdani42/nvim-web-devicons',
-        },
-        tag = 'nightly'
-    }
+    use { 'kyazdani42/nvim-tree.lua', requires = {'kyazdani42/nvim-web-devicons'} }
 
     -- Top bar
-    use {
-      'romgrk/barbar.nvim',
-      requires = {'kyazdani42/nvim-web-devicons'}
-    }
+    use { 'romgrk/barbar.nvim', requires = {'kyazdani42/nvim-web-devicons'} }
 
     -- Functionalities
     -- use 'alvan/vim-closetag'                            -- Auto close HTML tags
