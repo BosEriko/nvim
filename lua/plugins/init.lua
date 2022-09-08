@@ -62,11 +62,6 @@ return packer.startup(function(use)
     use 'lukas-reineke/indent-blankline.nvim'             -- Indent lines
     use 'lewis6991/gitsigns.nvim'                         -- Super fast git decorations implemented purely in lua/teal.
     use { 'phaazon/hop.nvim',  branch = 'v2' }            -- Easymotion
-    -- use 'alvan/vim-closetag'                            -- Auto close HTML tags
-    -- use 'ngmy/vim-rubocop'                              -- The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
-    -- use 'terryma/vim-multiple-cursors'                  -- Multiple Cursors
-    -- use 'thaerkh/vim-workspace'                         -- Persistent Vim Session
-    -- use 'Valloric/MatchTagAlways'                       -- HTML Tag Matcher
 
     -- Syntax Highlight
     -- Nvim Treesitter?

@@ -97,28 +97,3 @@ require('hop').setup({
   keys = 'asdfjkl;'
 })
 
--- " NERDTree and Startify at startup
--- autocmd VimEnter *
---   \   if !argc()
---   \ |   Startify
---   \ |   NERDTree
---   \ |   wincmd w
---   \ | endif
-
--- " Startify
--- let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
--- let g:startify_change_to_dir  = 0
-
--- " Workspace
--- let g:workspace_session_directory     = $HOME . '/.history/vim/workspace/sessions'
--- let g:workspace_undodir               = $HOME . '/.history/vim/workspace/undodir'
-
--- " Markdown
--- let g:vim_markdown_override_foldtext        = 0
--- let g:vim_markdown_emphasis_multiline       = 0
--- let g:vim_markdown_conceal                  = 0
--- let g:vim_markdown_conceal_code_blocks      = 0
--- let g:vim_markdown_follow_anchor            = 0
--- let g:vim_markdown_folding_disabled         = 1
--- let g:vim_markdown_folding_level            = 1
--- let g:vim_markdown_no_default_key_mappings  = 1
