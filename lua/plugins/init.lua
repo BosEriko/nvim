@@ -64,7 +64,6 @@ return packer.startup(function(use)
     use 'neovim/nvim-lspconfig'                           -- LSP
     use 'folke/tokyonight.nvim'                           -- A dark and light Neovim theme written in Lua
     use 'nvim-lualine/lualine.nvim'                       -- A blazing fast and easy to configure Neovim statusline written in Lua
-    -- Nvim Treesitter?
 
     -- Vim Plugins
     use 'romainl/vim-devdocs'                             -- API Lookup
