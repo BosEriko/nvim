@@ -59,7 +59,8 @@ require('gitsigns').setup({
 -- Enable nvim-tree
 require('nvim-tree').setup({
   view = {
-    side = 'right'
+    side = 'right',
+    hide_root_folder = true
   },
   renderer = {
     indent_markers = {
