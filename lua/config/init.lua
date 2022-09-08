@@ -92,6 +92,11 @@ require('lualine').setup({
   }
 })
 
+-- Enable hop (Easymotion)
+require('hop').setup({
+  keys = 'asdfjkl;'
+})
+
 -- " NERDTree and Startify at startup
 -- autocmd VimEnter *
 --   \   if !argc()
