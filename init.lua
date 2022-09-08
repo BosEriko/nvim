@@ -1,6 +1,6 @@
 -- Base Config
-require('config')
 require('hotkeys')
+require('config')
 require('lsp')
 require('plugins')
 require('theme')

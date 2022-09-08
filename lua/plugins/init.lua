@@ -68,27 +68,28 @@ return packer.startup(function(use)
     }
 
     -- Functionalities
-    -- use 'airblade/vim-gitgutter'                        -- Show git difference in the gutter
     -- use 'alvan/vim-closetag'                            -- Auto close HTML tags
-    -- use 'dyng/ctrlsf.vim'                               -- Word search inside directory
-    -- use 'junegunn/fzf'                                  -- FZF Search
-    -- use 'junegunn/fzf.vim'                              -- FZF.vim Search
     -- use 'ngmy/vim-rubocop'                              -- The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
-    -- use 'rizzatti/dash.vim'                             -- API Lookup
     use 'romainl/vim-devdocs'                             -- API Lookup
     -- use 'terryma/vim-multiple-cursors'                  -- Multiple Cursors
     -- use 'thaerkh/vim-workspace'                         -- Persistent Vim Session
-    -- use 'tomtom/tcomment_vim'                           -- Comment out function
+    use 'numToStr/Comment.nvim'                           -- Comment out function
     -- use 'tpope/vim-fugitive'                            -- View any blob, tree, commit, or tag in the repository
     -- use 'Valloric/MatchTagAlways'                       -- HTML Tag Matcher
     use 'lukas-reineke/indent-blankline.nvim'             -- Indent lines
     use 'lewis6991/gitsigns.nvim'                         -- Super fast git decorations implemented purely in lua/teal.
 
     -- Syntax Highlight
-    -- Plug 'sheerun/vim-polyglot'                     " Language Pack
+    -- Nvim Treesitter?
 
-    -- Party tricks Plugin
-    -- use 'mhinz/vim-startify'                            -- Welcome message
+    -- Fuzzy Search
+    -- Telescope?
+
+    -- Word Search
+    -- Telescope, too? With ripgrep?
+
+    -- Welcome Message
+    -- Startify? Dashboard? Alpha?
 
     -- Design Plugin
     use 'folke/tokyonight.nvim'                           -- A dark and light Neovim theme written in Lua

@@ -56,6 +56,23 @@ require('gitsigns').setup({
     current_line_blame = true
 })
 
+-- Enable Comment
+require('Comment').setup({
+  toggler = {
+    line = '<C-c>cc',
+    block = '<C-c>bc',
+  },
+  opleader = {
+    line = '<C-c>c',
+    block = '<C-c>b',
+  },
+  extra = {
+    above = '<C-c>cO',
+    below = '<C-c>co',
+    eol = '<C-c>cA',
+  },
+})
+
 -- Enable nvim-tree (File explorer)
 require('nvim-tree').setup({
   view = {
