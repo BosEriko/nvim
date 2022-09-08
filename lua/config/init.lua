@@ -58,9 +58,27 @@ require('gitsigns').setup({
 
 -- Enable nvim-tree
 require('nvim-tree').setup({
-    view = {
-        side = 'right'
+  view = {
+    side = 'right'
+  },
+  renderer = {
+    indent_markers = {
+      inline_arrows = true
+    },
+    icons = {
+      glyphs = {
+        git = {
+          unstaged = "",
+          staged = "",
+          unmerged = "",
+          renamed = "➜",
+          untracked = "★",
+          deleted = "",
+          ignored = "◌",
+        }
+      }
     }
+  }
 })
 
 -- Enable lualine
