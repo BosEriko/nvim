@@ -6,7 +6,9 @@
 -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
 
 local lsp = require('lspconfig')
-local servers = {}
+local servers = {
+  'tsserver'
+}
 
 for _, server in ipairs(servers) do
   lsp[server].setup({})
