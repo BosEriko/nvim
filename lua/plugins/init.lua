@@ -65,7 +65,6 @@ return packer.startup(function(use)
     -- use 'ngmy/vim-rubocop'                              -- The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
     -- use 'terryma/vim-multiple-cursors'                  -- Multiple Cursors
     -- use 'thaerkh/vim-workspace'                         -- Persistent Vim Session
-    -- use 'tpope/vim-fugitive'                            -- View any blob, tree, commit, or tag in the repository
     -- use 'Valloric/MatchTagAlways'                       -- HTML Tag Matcher
 
     -- Syntax Highlight
