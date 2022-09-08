@@ -49,14 +49,15 @@ return packer.startup(function(use)
 
     -- Dependency of most plugins
     use 'nvim-lua/plenary.nvim'
+    use 'kyazdani42/nvim-web-devicons'
 
     ----------------------------------------------------------------------------- [PLUGINS START] --
 
     -- Tree file explorer
-    use { 'kyazdani42/nvim-tree.lua', requires = {'kyazdani42/nvim-web-devicons'} }
+    use 'kyazdani42/nvim-tree.lua'
 
     -- Top bar
-    use { 'romgrk/barbar.nvim', requires = {'kyazdani42/nvim-web-devicons'} }
+    use 'romgrk/barbar.nvim'
 
     -- Functionalities
     -- use 'alvan/vim-closetag'                            -- Auto close HTML tags
@@ -74,13 +75,10 @@ return packer.startup(function(use)
     -- Nvim Treesitter?
 
     -- Fuzzy Search
-    -- Telescope?
+    use 'nvim-telescope/telescope.nvim'
 
     -- Word Search
     -- Telescope, too? With ripgrep?
-
-    -- Welcome Message
-    -- Startify? Dashboard? Alpha?
 
     -- Design Plugin
     use 'folke/tokyonight.nvim'                           -- A dark and light Neovim theme written in Lua
