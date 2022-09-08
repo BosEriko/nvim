@@ -105,15 +105,6 @@ require('hop').setup({
 --   \ |   wincmd w
 --   \ | endif
 
--- " Initialize FZF
--- set rtp+=~/.fzf
-
--- " Store temporary files in a central spot
--- let vimtmp = $HOME . '/.tmp/' . getpid()
--- silent! call mkdir(vimtmp, "p", 0700)
--- let &backupdir=vimtmp
--- let &directory=vimtmp
-
 -- " Startify
 -- let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
 -- let g:startify_change_to_dir  = 0
