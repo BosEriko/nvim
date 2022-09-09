@@ -54,19 +54,20 @@ return packer.startup(function(use)
     ----------------------------------------------------------------------------- [PLUGINS START] --
 
     -- Nvim Plugins
-    use 'kyazdani42/nvim-tree.lua'                        -- Tree Explorer
-    use 'romgrk/barbar.nvim'                              -- Top bar list
-    use 'nvim-telescope/telescope.nvim'                   -- Fuzzy Finder and Word Search
-    use 'numToStr/Comment.nvim'                           -- Comment out function
-    use 'lukas-reineke/indent-blankline.nvim'             -- Indent lines
-    use 'lewis6991/gitsigns.nvim'                         -- Super fast git decorations implemented purely in lua/teal.
-    use { 'phaazon/hop.nvim',  branch = 'v2' }            -- Easymotion
-    use 'neovim/nvim-lspconfig'                           -- LSP
-    use 'folke/tokyonight.nvim'                           -- A dark and light Neovim theme written in Lua
-    use 'nvim-lualine/lualine.nvim'                       -- A blazing fast and easy to configure Neovim statusline written in Lua
+    use 'kyazdani42/nvim-tree.lua'                                -- Tree Explorer
+    use 'romgrk/barbar.nvim'                                      -- Top bar list
+    use 'nvim-telescope/telescope.nvim'                           -- Fuzzy Finder and Word Search
+    use 'numToStr/Comment.nvim'                                   -- Comment out function
+    use 'lukas-reineke/indent-blankline.nvim'                     -- Indent lines
+    use 'lewis6991/gitsigns.nvim'                                 -- Super fast git decorations implemented purely in lua/teal.
+    use { 'phaazon/hop.nvim',  branch = 'v2' }                    -- Easymotion
+    use 'neovim/nvim-lspconfig'                                   -- LSP
+    use 'folke/tokyonight.nvim'                                   -- A dark and light Neovim theme written in Lua
+    use 'nvim-lualine/lualine.nvim'                               -- A blazing fast and easy to configure Neovim statusline written in Lua
+    use { 'nvim-treesitter/nvim-treesitter' }                     -- Treesitter (Syntax highlight and other things)
 
     -- Vim Plugins
-    use 'romainl/vim-devdocs'                             -- API Lookup
+    use 'romainl/vim-devdocs'                                     -- API Lookup
 
     ------------------------------------------------------------------------------- [PLUGINS END] --
 
