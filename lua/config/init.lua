@@ -48,7 +48,7 @@ set.colorcolumn = '100'
 
 -- Enable Indend Blankline
 require('indent_blankline').setup({
-  filetype_exclude = { 'packer','NvimTree' }
+  filetype_exclude = { 'packer','NvimTree','help' }
 })
 
 -- Enable gitsigns (Git support)
@@ -65,7 +65,7 @@ require('nvim-tree').setup({
   },
   renderer = {
     indent_markers = {
-      enable = true,
+      enable = false,
       inline_arrows = true
     },
     icons = {
