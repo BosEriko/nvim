@@ -6,4 +6,4 @@
 -- " https://www.nerdfonts.com/cheat-sheet
 
 -- Theme
-vim.cmd[[colorscheme tokyonight]]
+vim.cmd[[colorscheme dracula]]

@@ -62,7 +62,7 @@ return packer.startup(function(use)
     use 'lewis6991/gitsigns.nvim'                                 -- Super fast git decorations implemented purely in lua/teal.
     use { 'phaazon/hop.nvim',  branch = 'v2' }                    -- Easymotion
     use 'neovim/nvim-lspconfig'                                   -- LSP
-    use 'folke/tokyonight.nvim'                                   -- A dark and light Neovim theme written in Lua
+    use 'Mofiqul/dracula.nvim'                                    -- Dracula colorscheme for NEOVIM written in Lua
     use 'nvim-lualine/lualine.nvim'                               -- A blazing fast and easy to configure Neovim statusline written in Lua
     use { 'nvim-treesitter/nvim-treesitter' }                     -- Treesitter (Syntax highlight and other things)
 
