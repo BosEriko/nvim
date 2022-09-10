@@ -87,7 +87,7 @@ require('nvim-tree').setup({
 -- Enable lualine (Statusbar)
 require('lualine').setup({
   options = {
-    theme = 'tokyonight',
+    theme = 'dracula',
     disabled_filetypes = { 'packer','NvimTree' }
   }
 })
