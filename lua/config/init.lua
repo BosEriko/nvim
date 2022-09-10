@@ -31,7 +31,7 @@ set.showcmd = true
 -- Show which line you're at
 set.cursorline = true
 
--- " Setlist Options
+-- Setlist Options
 set.listchars = { space = ' ', tab = '▸▸', eol = '¬', extends = '>', precedes = '<', trail = '~' }
 
 -- Search Settings
@@ -71,13 +71,13 @@ require('nvim-tree').setup({
     icons = {
       glyphs = {
         git = {
-          unstaged = "",
-          staged = "",
-          unmerged = "",
-          renamed = "➜",
-          untracked = "★",
-          deleted = "",
-          ignored = "◌"
+          unstaged = '',
+          staged = '',
+          unmerged = '',
+          renamed = '➜',
+          untracked = '★',
+          deleted = '',
+          ignored = '◌'
         }
       }
     }
