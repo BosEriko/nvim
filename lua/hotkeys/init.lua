@@ -27,6 +27,7 @@ map('', '<C-b>', ':let @+ = expand("%")<CR>', { silent = true })
 map('', '<C-f>', ':Telescope live_grep<CR>', { silent = true })
 map('', '<C-g>', ':%s/old/new/g')
 map('', '<C-p>', ':Telescope find_files<CR>', { silent = true })
+map('', '<C-z>', ':ToggleTerm<CR>', { silent = true })
 
 -- Leader Shortcuts
 map('n', '<leader>d', ':DD<CR>', { silent = true })
@@ -38,7 +39,6 @@ map('n', '<leader>o', ':"<,">sort<CR>', { silent = true })
 map('n', '<leader>r', ':g/^/m0<CR>', { silent = true })
 map('n', '<leader>f', ':HopChar1<CR>', { silent = true })
 map('n', '<leader>w', ':set wrap!<CR>', { silent = true })
-map('n', '<leader>t', ':ToggleTerm<CR>', { silent = true })
 
 -- Comments Shortcuts
 require('Comment').setup({
