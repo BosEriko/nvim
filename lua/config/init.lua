@@ -97,3 +97,6 @@ require('hop').setup({
   keys = 'asdfjkl;'
 })
 
+-- Enable toggleterm
+require("toggleterm").setup()
+

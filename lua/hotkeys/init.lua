@@ -38,6 +38,7 @@ map('n', '<leader>o', ':"<,">sort<CR>', { silent = true })
 map('n', '<leader>r', ':g/^/m0<CR>', { silent = true })
 map('n', '<leader>f', ':HopChar1<CR>', { silent = true })
 map('n', '<leader>w', ':set wrap!<CR>', { silent = true })
+map('n', '<leader>t', ':ToggleTerm<CR>', { silent = true })
 
 -- Comments Shortcuts
 require('Comment').setup({

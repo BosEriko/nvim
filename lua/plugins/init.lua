@@ -44,36 +44,37 @@ packer.init({
 
 -- Install your plugins here
 return packer.startup(function(use)
-    -- Make packer manage itself
-    use 'wbthomason/packer.nvim'
+  -- Make packer manage itself
+  use 'wbthomason/packer.nvim'
 
-    -- Dependency of most plugins
-    use 'nvim-lua/plenary.nvim'
-    use 'kyazdani42/nvim-web-devicons'
+  -- Dependency of most plugins
+  use 'nvim-lua/plenary.nvim'
+  use 'kyazdani42/nvim-web-devicons'
 
-    ----------------------------------------------------------------------------- [PLUGINS START] --
+  ----------------------------------------------------------------------------- [PLUGINS START] --
 
-    -- Nvim Plugins
-    use 'kyazdani42/nvim-tree.lua'                                -- Tree Explorer
-    use 'romgrk/barbar.nvim'                                      -- Top bar list
-    use 'nvim-telescope/telescope.nvim'                           -- Fuzzy Finder and Word Search
-    use 'numToStr/Comment.nvim'                                   -- Comment out function
-    use 'lukas-reineke/indent-blankline.nvim'                     -- Indent lines
-    use 'lewis6991/gitsigns.nvim'                                 -- Super fast git decorations implemented purely in lua/teal.
-    use { 'phaazon/hop.nvim',  branch = 'v2' }                    -- Easymotion
-    use 'neovim/nvim-lspconfig'                                   -- LSP
-    use 'Mofiqul/dracula.nvim'                                    -- Dracula colorscheme for NEOVIM written in Lua
-    use 'nvim-lualine/lualine.nvim'                               -- A blazing fast and easy to configure Neovim statusline written in Lua
-    use { 'nvim-treesitter/nvim-treesitter' }                     -- Treesitter (Syntax highlight and other things)
+  -- Nvim Plugins
+  use 'kyazdani42/nvim-tree.lua'                                -- Tree Explorer
+  use 'romgrk/barbar.nvim'                                      -- Top bar list
+  use 'nvim-telescope/telescope.nvim'                           -- Fuzzy Finder and Word Search
+  use 'numToStr/Comment.nvim'                                   -- Comment out function
+  use 'lukas-reineke/indent-blankline.nvim'                     -- Indent lines
+  use 'lewis6991/gitsigns.nvim'                                 -- Super fast git decorations implemented purely in lua/teal.
+  use { 'phaazon/hop.nvim',  branch = 'v2' }                    -- Easymotion
+  use 'neovim/nvim-lspconfig'                                   -- LSP
+  use 'Mofiqul/dracula.nvim'                                    -- Dracula colorscheme for NEOVIM written in Lua
+  use 'nvim-lualine/lualine.nvim'                               -- A blazing fast and easy to configure Neovim statusline written in Lua
+  use { 'nvim-treesitter/nvim-treesitter' }                     -- Treesitter (Syntax highlight and other things)
+  use { "akinsho/toggleterm.nvim", tag = '*' }                  -- A neovim plugin to persist and toggle multiple terminals
 
-    -- Vim Plugins
-    use 'romainl/vim-devdocs'                                     -- API Lookup
+  -- Vim Plugins
+  use 'romainl/vim-devdocs'                                     -- API Lookup
 
-    ------------------------------------------------------------------------------- [PLUGINS END] --
+  ------------------------------------------------------------------------------- [PLUGINS END] --
 
-    -- Automatically set up your configuration after cloning packer.nvim
-    -- Put this at the end after all plugins
-    if PACKER_BOOTSTRAP then
-        require("packer").sync()
-    end
+  -- Automatically set up your configuration after cloning packer.nvim
+  -- Put this at the end after all plugins
+  if PACKER_BOOTSTRAP then
+    require("packer").sync()
+  end
 end)
