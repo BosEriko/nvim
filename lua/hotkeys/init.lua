@@ -27,7 +27,7 @@ map('', '<C-b>', ':let @+ = expand("%")<CR>', { silent = true })
 map('', '<C-f>', ':Telescope live_grep<CR>', { silent = true })
 map('', '<C-g>', ':%s/old/new/g')
 map('', '<C-p>', ':Telescope find_files<CR>', { silent = true })
-map('', '<C-z>', ':ToggleTerm<CR>', { silent = true })
+map('', '<C-z>', '<Cmd>exe v:count1 . "ToggleTerm"<CR>', { silent = true })
 
 -- Leader Shortcuts
 map('n', '<leader>d', ':DD<CR>', { silent = true })
