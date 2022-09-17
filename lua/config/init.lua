@@ -8,7 +8,7 @@ local set = vim.opt
 set.encoding = 'utf-8'
 
 -- Use global clipboard
-set clipboard=unnamedplus
+set.clipboard=unnamedplus
 
 -- Backspace Fix
 set.backspace = 'indent,eol,start'
