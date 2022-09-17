@@ -65,7 +65,8 @@ return packer.startup(function(use)
   use 'Mofiqul/dracula.nvim'                                    -- Dracula colorscheme for NEOVIM written in Lua
   use 'nvim-lualine/lualine.nvim'                               -- A blazing fast and easy to configure Neovim statusline written in Lua
   use { 'nvim-treesitter/nvim-treesitter' }                     -- Treesitter (Syntax highlight and other things)
-  use { "akinsho/toggleterm.nvim", tag = '*' }                  -- A neovim plugin to persist and toggle multiple terminals
+  use { 'akinsho/toggleterm.nvim', tag = '*' }                  -- A neovim plugin to persist and toggle multiple terminals
+  use 'folke/which-key.nvim'                                    -- Displays a popup with possible key bindings
 
   -- Vim Plugins
   use 'romainl/vim-devdocs'                                     -- API Lookup

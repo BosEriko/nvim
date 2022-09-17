@@ -11,6 +11,9 @@ function map(mode, lhs, rhs, opts)
   vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 
+-- Initialize Whickey
+local wk = require("which-key")
+
 -- Change mapleader
 let.mapleader = ' '
 
@@ -22,7 +25,7 @@ map('', '<C-l>', ':bn!<CR>', { silent = true })
 map('', '<C-x>', ':bd<CR>', { silent = true })
 map('', '<C-q>', ':q<CR>', { silent = true })
 map('', '<C-s>', ':w<CR>', { silent = true })
-map('', '<C-k>', ':!cmd.exe /c start "https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=b50d8f4a46a748a19cd7988e1d235a2e" /b<CR>', { silent = true })
+map('', '<C-k>', ':WhichKey<CR>', { silent = true })
 map('', '<C-b>', ':let @+ = expand("%")<CR>', { silent = true })
 map('', '<C-f>', ':Telescope live_grep<CR>', { silent = true })
 map('', '<C-g>', ':%s/old/new/g')
