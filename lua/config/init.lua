@@ -117,14 +117,14 @@ require('treesitter-context').setup()
 -- Enable bufferline for the topbar
 require('bufferline').setup({
   options = {
-    diagnostics = "nvim_lsp",
+    diagnostics = 'nvim_lsp',
     show_buffer_close_icons = false,
     show_close_icon = false,
     offsets = {
       {
-        filetype = "NvimTree",
-        text = " File Explorer",
-        highlight = "Directory",
+        filetype = 'NvimTree',
+        text = ' File Explorer',
+        highlight = 'Directory',
         separator = true
       }
     }
@@ -132,12 +132,23 @@ require('bufferline').setup({
 })
 
 -- Enable Telescope
+local actions = require('telescope.actions')
 require('telescope').setup({
   defaults = {
+    prompt_prefix = '  ',
+    selection_caret = '  ',
+    path_display = { 'smart' },
+    file_ignore_patterns = { '.git/', 'node_modules' },
+    mappings = {
+      i = {
+        ['<C-j>'] = actions.move_selection_next,
+        ['<C-k>'] = actions.move_selection_previous,
+      },
+    },
     borderchars = {
-      prompt = { "═", "║", "═", "║", "╔", "╗", "╝", "╚" },
-      results = { "═", "║", "═", "║", "╔", "╗", "╝", "╚" },
-      preview = { "═", "║", "═", "║", "╔", "╗", "╝", "╚" },
+      prompt = { '═', '║', '═', '║', '╔', '╗', '╝', '╚' },
+      results = { '═', '║', '═', '║', '╔', '╗', '╝', '╚' },
+      preview = { '═', '║', '═', '║', '╔', '╗', '╝', '╚' },
     }
   }
 })
