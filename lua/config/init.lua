@@ -131,3 +131,14 @@ require('bufferline').setup({
   }
 })
 
+-- Enable Telescope
+require('telescope').setup({
+  defaults = {
+    borderchars = {
+      prompt = { "═", "║", "═", "║", "╔", "╗", "╝", "╚" },
+      results = { "═", "║", "═", "║", "╔", "╗", "╝", "╚" },
+      preview = { "═", "║", "═", "║", "╔", "╗", "╝", "╚" },
+    }
+  }
+})
+
