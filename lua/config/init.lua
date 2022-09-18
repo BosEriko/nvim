@@ -118,12 +118,12 @@ require('treesitter-context').setup()
 require('bufferline').setup({
   options = {
     diagnostics = "nvim_lsp",
-    buffer_close_icon = '',
-    close_icon = '',
+    show_buffer_close_icons = false,
+    show_close_icon = false,
     offsets = {
       {
         filetype = "NvimTree",
-        text = "File Explorer",
+        text = " File Explorer",
         highlight = "Directory",
         separator = true
       }
