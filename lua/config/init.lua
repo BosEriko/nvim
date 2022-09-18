@@ -117,6 +117,7 @@ require('treesitter-context').setup()
 -- Enable bufferline for the topbar
 require('bufferline').setup({
   options = {
+    diagnostics = "nvim_lsp",
     offsets = {
       {
         filetype = "NvimTree",
