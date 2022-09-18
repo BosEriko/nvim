@@ -117,12 +117,11 @@ require('treesitter-context').setup()
 -- Enable bufferline for the topbar
 require('bufferline').setup({
   options = {
-      offsets = {
+    offsets = {
       {
         filetype = "NvimTree",
         text = "File Explorer",
-        highlight = "Directory",
-        separator = true
+        highlight = "Directory"
       }
     }
   }
