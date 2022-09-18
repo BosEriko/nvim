@@ -55,7 +55,7 @@ return packer.startup(function(use)
 
   -- Nvim Plugins
   use 'kyazdani42/nvim-tree.lua'                                -- Tree Explorer
-  use 'romgrk/barbar.nvim'                                      -- Top bar list
+  use 'akinsho/bufferline.nvim'                                 -- Top bar list
   use 'nvim-telescope/telescope.nvim'                           -- Fuzzy Finder and Word Search
   use 'numToStr/Comment.nvim'                                   -- Comment out function
   use 'lukas-reineke/indent-blankline.nvim'                     -- Indent lines
