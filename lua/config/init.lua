@@ -112,7 +112,9 @@ vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
 require('which-key').setup()
 
 -- Enable treesitter context
-require('treesitter-context').setup()
+require('treesitter-context').setup({
+  line_numbers = true
+})
 
 -- Enable bufferline for the topbar
 require('bufferline').setup({
