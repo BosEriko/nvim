@@ -7,3 +7,5 @@
 
 -- Theme
 vim.cmd[[colorscheme dracula]]
+
+vim.api.nvim_set_hl(0, 'TreesitterContext', { fg = "#ffffff", bg = "#424242" })
