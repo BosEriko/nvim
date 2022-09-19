@@ -9,3 +9,4 @@
 vim.cmd[[colorscheme dracula]]
 
 vim.api.nvim_set_hl(0, 'TreesitterContext', { fg = "#ffffff", bg = "#262626" })
+vim.api.nvim_set_hl(0, 'TreesitterContextLineNumber', { fg = "#ffffff", bg = "#262626" })
