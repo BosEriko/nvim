@@ -10,6 +10,9 @@ set.encoding = 'utf-8'
 -- Use global clipboard
 set.clipboard=unnamedplus
 
+-- Set extra colors
+set.termguicolors = true
+
 -- Backspace Fix
 set.backspace = 'indent,eol,start'
 
