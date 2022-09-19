@@ -58,9 +58,7 @@ require('indent_blankline').setup({
 })
 
 -- Enable gitsigns (Git support)
-require('gitsigns').setup({
-    current_line_blame = true
-})
+require('gitsigns').setup()
 
 -- Enable nvim-tree (File explorer)
 require('nvim-tree').setup({
