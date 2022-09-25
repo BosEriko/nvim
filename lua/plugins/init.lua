@@ -69,6 +69,7 @@ return packer.startup(function(use)
   use 'romainl/vim-devdocs'                                     -- API Lookup
   use 'nvim-treesitter/nvim-treesitter'                         -- Treesitter (Syntax highlight and other things)
   use 'nvim-treesitter/nvim-treesitter-context'                 -- Treesitter Context (See where you are easilly)
+  use 'windwp/nvim-autopairs'                                   -- Autopairs for neovim written in lua
 
   ------------------------------------------------------------------------------- [PLUGINS END] --
 

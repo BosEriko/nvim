@@ -156,3 +156,6 @@ require('telescope').setup({
   }
 })
 
+-- Enable Autpairs
+require('nvim-autopairs').setup()
+
