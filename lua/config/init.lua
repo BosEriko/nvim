@@ -62,6 +62,9 @@ require('gitsigns').setup()
 
 -- Enable nvim-tree (File explorer)
 require('nvim-tree').setup({
+  filters = {
+    custom = { "^.git$" }
+  },
   view = {
     width = 40,
     side = 'right',
@@ -158,4 +161,9 @@ require('telescope').setup({
 
 -- Enable Autpairs
 require('nvim-autopairs').setup()
+
+-- Enable Comment
+require('Comment').setup({
+  padding = true
+})
 
