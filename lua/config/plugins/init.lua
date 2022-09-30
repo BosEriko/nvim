@@ -61,7 +61,6 @@ return packer.startup(function(use)
   use 'lukas-reineke/indent-blankline.nvim'                     -- Indent lines
   use 'lewis6991/gitsigns.nvim'                                 -- Super fast git decorations implemented purely in lua/teal.
   use { 'phaazon/hop.nvim',  branch = 'v2' }                    -- Easymotion
-  use 'neovim/nvim-lspconfig'                                   -- LSP
   use 'Mofiqul/dracula.nvim'                                    -- Dracula colorscheme for NEOVIM written in Lua
   use 'nvim-lualine/lualine.nvim'                               -- A blazing fast and easy to configure Neovim statusline written in Lua
   use { 'akinsho/toggleterm.nvim', tag = '*' }                  -- A neovim plugin to persist and toggle multiple terminals
@@ -70,6 +69,12 @@ return packer.startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'                         -- Treesitter (Syntax highlight and other things)
   use 'nvim-treesitter/nvim-treesitter-context'                 -- Treesitter Context (See where you are easilly)
   use 'windwp/nvim-autopairs'                                   -- Autopairs for neovim written in lua
+  use 'neovim/nvim-lspconfig'                                   -- Language Server Protocol
+  use 'hrsh7th/cmp-nvim-lsp'                                    -- Language Server Protocol
+  use 'hrsh7th/cmp-buffer'                                      -- Language Server Protocol
+  use 'hrsh7th/cmp-path'                                        -- Language Server Protocol
+  use 'hrsh7th/cmp-cmdline'                                     -- Language Server Protocol
+  use 'hrsh7th/nvim-cmp'                                        -- Language Server Protocol
 
   ------------------------------------------------------------------------------- [PLUGINS END] --
 
