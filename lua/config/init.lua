@@ -140,11 +140,16 @@ require('bufferline').setup({
 -- Enable Telescope
 local actions = require('telescope.actions')
 require('telescope').setup({
+  pickers = {
+    find_files = {
+      hidden = true
+    }
+  },
   defaults = {
     prompt_prefix = '  ',
     selection_caret = '  ',
     path_display = { 'smart' },
-    file_ignore_patterns = { '.git/', 'node_modules' },
+    file_ignore_patterns = { '^.git/', 'node_modules' },
     mappings = {
       i = {
         ['<C-j>'] = actions.move_selection_next,
