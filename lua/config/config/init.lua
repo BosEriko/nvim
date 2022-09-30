@@ -10,6 +10,9 @@ set.encoding = 'utf-8'
 -- Use global clipboard
 set.clipboard=unnamedplus
 
+-- Set complete option
+set.completeopt='menu,menuone,noselect'
+
 -- Set extra colors
 set.termguicolors = true
 
