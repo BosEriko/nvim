@@ -23,7 +23,7 @@ end
 vim.cmd([[
 augroup packer_user_config
 autocmd!
-autocmd BufWritePost ~/.files/config/.config/nvim/lua/plugins/init.lua source <afile> | PackerSync
+autocmd BufWritePost ~/.files/config/.config/nvim/lua/config/plugins/init.lua source <afile> | PackerSync
 augroup end
 ]])
 
