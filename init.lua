@@ -1,12 +1,12 @@
 -- NeoVim Config
 require('config/theme')
 require('config/hotkeys')
-require('config/settings')
 
 -- Plugins Config
-require('config/lsp')
-require('config/treesitter')
-require('config/cmp')
+require('config/settings/default')
+require('config/settings/lsp')
+require('config/settings/treesitter')
+require('config/settings/cmp')
 
 -- Packer
 require('config/plugins')
