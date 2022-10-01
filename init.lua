@@ -6,6 +6,7 @@ require('config/hotkeys')
 require('config/settings/default')
 require('config/settings/lsp')
 require('config/settings/treesitter')
+require('config/settings/tree')
 require('config/settings/cmp')
 
 -- Packer
