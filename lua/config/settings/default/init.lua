@@ -1,5 +1,5 @@
 
----------------------------------------------------------------------------------------- [Config] --
+--------------------------------------------------------------------------------------- [Default] --
 
 -- Make it more like vimrc
 local set = vim.opt
@@ -75,14 +75,6 @@ require('lualine').setup({
 require('hop').setup({
   keys = 'asdfjkl;'
 })
-
--- Enable toggleterm
-require('toggleterm').setup()
-function _G.set_terminal_keymaps()
-  local opts = {buffer = 0}
-  vim.keymap.set('t', '<C-z>', [[<Cmd>exit<CR>]], opts)
-end
-vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
 
 -- Enable whichkey
 require('which-key').setup()

@@ -51,7 +51,7 @@ return packer.startup(function(use)
   use 'nvim-lua/plenary.nvim'
   use 'kyazdani42/nvim-web-devicons'
 
-  ----------------------------------------------------------------------------- [PLUGINS START] --
+  ------------------------------------------------------------------------------- [PLUGINS START] --
 
   -- Nvim Plugins
   use 'kyazdani42/nvim-tree.lua'                                -- Tree Explorer
@@ -76,7 +76,7 @@ return packer.startup(function(use)
   use 'hrsh7th/cmp-cmdline'                                     -- Language Server Protocol
   use 'hrsh7th/nvim-cmp'                                        -- Language Server Protocol
 
-  ------------------------------------------------------------------------------- [PLUGINS END] --
+  --------------------------------------------------------------------------------- [PLUGINS END] --
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
