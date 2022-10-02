@@ -8,6 +8,7 @@ require('config/settings/lsp')
 require('config/settings/telescope')
 require('config/settings/treesitter')
 require('config/settings/tree')
+require('config/settings/bufferline')
 require('config/settings/cmp')
 
 -- Packer
