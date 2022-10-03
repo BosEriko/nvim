@@ -84,6 +84,3 @@ require('treesitter-context').setup({
   line_numbers = true
 })
 
--- Enable Autpairs
-require('nvim-autopairs').setup()
-
