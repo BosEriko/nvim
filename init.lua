@@ -16,6 +16,11 @@ require('config/settings/bufferline')
 require('config/settings/comment')
 require('config/settings/nvim-autopairs')
 require('config/settings/cmp')
+require('config/settings/gitsigns')
+require('config/settings/hop')
+require('config/settings/indent-blankline')
+require('config/settings/lualine')
+require('config/settings/which-key')
 
 -- Plugins
 require('config/plugins')

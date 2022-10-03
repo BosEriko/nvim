@@ -55,27 +55,3 @@ set.fillchars = { eob = ' ', vert = ' ' }
 -- Set line length
 set.colorcolumn = '100'
 
--- Enable Indend Blankline
-require('indent_blankline').setup({
-  filetype_exclude = { 'packer','NvimTree','help' }
-})
-
--- Enable gitsigns (Git support)
-require('gitsigns').setup()
-
--- Enable lualine (Statusbar)
-require('lualine').setup({
-  options = {
-    theme = 'dracula',
-    disabled_filetypes = { 'packer','NvimTree' }
-  }
-})
-
--- Enable hop (Easymotion)
-require('hop').setup({
-  keys = 'asdfjkl;'
-})
-
--- Enable whichkey
-require('which-key').setup()
-
