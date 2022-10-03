@@ -1,8 +1,8 @@
 -- Themes
-require('config/theme/default')
+require('config/theme')
 
 -- Hotkeys
-require('config/hotkeys/default')
+require('config/hotkeys')
 
 -- Settings
 require('config/settings/default')
