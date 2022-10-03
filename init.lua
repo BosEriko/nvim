@@ -1,8 +1,10 @@
--- NeoVim Config
+-- Themes
 require('config/theme')
+
+-- Hotkeys
 require('config/hotkeys')
 
--- Plugins Config
+-- Settings
 require('config/settings/default')
 require('config/settings/lsp')
 require('config/settings/telescope')
@@ -12,5 +14,5 @@ require('config/settings/toggleterm')
 require('config/settings/bufferline')
 require('config/settings/cmp')
 
--- Packer
+-- Plugins
 require('config/plugins')
