@@ -79,8 +79,3 @@ require('hop').setup({
 -- Enable whichkey
 require('which-key').setup()
 
--- Enable treesitter context
-require('treesitter-context').setup({
-  line_numbers = true
-})
-
