@@ -87,8 +87,3 @@ require('treesitter-context').setup({
 -- Enable Autpairs
 require('nvim-autopairs').setup()
 
--- Enable Comment
-require('Comment').setup({
-  padding = true
-})
-

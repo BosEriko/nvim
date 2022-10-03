@@ -12,6 +12,7 @@ require('config/settings/treesitter')
 require('config/settings/tree')
 require('config/settings/toggleterm')
 require('config/settings/bufferline')
+require('config/settings/comment')
 require('config/settings/cmp')
 
 -- Plugins
