@@ -6,15 +6,15 @@ require('config/hotkeys/default')
 
 -- Settings
 require('config/settings/default')
-require('config/settings/lsp')
+require('config/settings/lspconfig')
 require('config/settings/telescope')
 require('config/settings/treesitter')
 require('config/settings/treesitter-context')
-require('config/settings/tree')
+require('config/settings/nvim-tree')
 require('config/settings/toggleterm')
 require('config/settings/bufferline')
 require('config/settings/comment')
-require('config/settings/autopairs')
+require('config/settings/nvim-autopairs')
 require('config/settings/cmp')
 
 -- Plugins
