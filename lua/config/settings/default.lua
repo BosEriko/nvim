@@ -55,3 +55,7 @@ set.fillchars = { eob = ' ', vert = ' ' }
 -- Set line length
 set.colorcolumn = '100'
 
+-- Set folding pattern
+set.foldmethod = "expr"
+set.foldexpr = "nvim_treesitter#foldexpr()"
+
