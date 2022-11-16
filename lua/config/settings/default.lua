@@ -26,6 +26,9 @@ set.relativenumber = true
 -- Use system clipboard
 set.clipboard = 'unnamed'
 
+-- Save undos
+set.undofile = true
+
 -- Stop line break
 set.wrap = false
 
