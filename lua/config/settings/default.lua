@@ -21,7 +21,7 @@ set.number = true
 set.relativenumber = true
 
 -- Use global clipboard
-set.clipboard = unnamedplus
+set.clipboard = 'unnamed'
 
 -- Save undos
 set.undofile = true
