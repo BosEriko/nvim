@@ -7,9 +7,6 @@ local set = vim.opt
 -- Set utf-8
 set.encoding = 'utf-8'
 
--- Use global clipboard
-set.clipboard=unnamedplus
-
 -- Set complete option
 set.completeopt='menu,menuone,noselect'
 
@@ -23,8 +20,8 @@ set.backspace = 'indent,eol,start'
 set.number = true
 set.relativenumber = true
 
--- Use system clipboard
-set.clipboard = 'unnamed'
+-- Use global clipboard
+set.clipboard = unnamedplus
 
 -- Save undos
 set.undofile = true
