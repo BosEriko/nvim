@@ -75,6 +75,7 @@ return packer.startup(function(use)
   use 'hrsh7th/cmp-path'                                        -- Language Server Protocol
   use 'hrsh7th/cmp-cmdline'                                     -- Language Server Protocol
   use 'hrsh7th/nvim-cmp'                                        -- Language Server Protocol
+  use 'github/copilot.vim'                                      -- Your AI pair programmer
 
   --------------------------------------------------------------------------------- [PLUGINS END] --
 
