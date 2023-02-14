@@ -50,6 +50,14 @@ We will also need `ripgrep` for Telescope to work:
   ```sh
   sudo apt install ripgrep
   ```
+
+## Setup Copilot
+Run the command below inside Neovim to authenticate your Copilot
+
+  ```sh
+  :Copilot setup
+  ```
+
 ---
 
 **NOTE** make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).
