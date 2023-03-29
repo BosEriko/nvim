@@ -51,6 +51,9 @@ We will also need `ripgrep` for Telescope to work:
   sudo apt install ripgrep
   ```
 
+## Symlink
+Make sure the links inside [symlink.lua](lua/config/settings/symlink.lua) are always correct! Symlinking are done this way because we're using WSL2 and cross platform symlinking is tricky.
+
 ## Setup Copilot
 Run the command below inside Neovim to authenticate your Copilot
 
