@@ -8,9 +8,9 @@ require('nvim-tree').setup({
   view = {
     width = 40,
     side = 'right',
-    hide_root_folder = true
   },
   renderer = {
+    root_folder_label = false,
     indent_markers = {
       enable = false,
       inline_arrows = true
