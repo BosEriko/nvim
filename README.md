@@ -56,7 +56,11 @@ Make sure the links inside [symlink.lua](lua/config/settings/symlink.lua) are al
 
 ## Update
 To avoid errors, try to update as much as possible.
-### Treesitter
+### Neovim (Inside bash)
+```
+nvim:update
+```
+### Treesitter (Inside Neovim)
 ```
 :TSUpdate
 ```
