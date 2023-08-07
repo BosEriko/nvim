@@ -56,7 +56,7 @@ return packer.startup(function(use)
   -- Nvim Plugins
   use 'kyazdani42/nvim-tree.lua'                                -- Tree Explorer
   use 'akinsho/bufferline.nvim'                                 -- Top bar list
-  use 'nvim-telescope/telescope.nvim'                           -- Fuzzy Finder and Word Search
+  use {'nvim-telescope/telescope.nvim', tag = '0.1.1'}          -- Fuzzy Finder and Word Search
   use 'numToStr/Comment.nvim'                                   -- Comment out function
   use 'lukas-reineke/indent-blankline.nvim'                     -- Indent lines
   use 'lewis6991/gitsigns.nvim'                                 -- Super fast git decorations implemented purely in lua/teal.
