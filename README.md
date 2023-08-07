@@ -61,4 +61,5 @@ To avoid errors, try to update as much as possible.
 :TSUpdate
 ```
 
-**NOTE** make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).
+## Note
+Make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).
