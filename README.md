@@ -54,13 +54,4 @@ We will also need `ripgrep` for Telescope to work:
 ## Symlink (Windows)
 Make sure the links inside [symlink.lua](lua/config/settings/symlink.lua) are always correct! Symlinking are done this way because we're using WSL2 and cross platform symlinking is tricky.
 
-## Setup Copilot
-Run the command below inside Neovim to authenticate your Copilot
-
-  ```sh
-  :Copilot setup
-  ```
-
----
-
 **NOTE** make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).
