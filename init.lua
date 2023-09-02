@@ -1,27 +1,41 @@
--- Themes
-require('config/theme')
+-- VSCode Config
+local function vsc_config()
+end
 
--- Hotkeys
-require('config/hotkeys')
+-- Local Config
+local function local_config()
+  -- Themes
+  require('config/local/theme')
 
--- Settings
-require('config/settings/default')
-require('config/settings/lspconfig')
-require('config/settings/telescope')
-require('config/settings/treesitter')
-require('config/settings/treesitter-context')
-require('config/settings/nvim-tree')
-require('config/settings/toggleterm')
-require('config/settings/bufferline')
-require('config/settings/comment')
-require('config/settings/nvim-autopairs')
-require('config/settings/cmp')
-require('config/settings/gitsigns')
-require('config/settings/hop')
-require('config/settings/indent-blankline')
-require('config/settings/lualine')
-require('config/settings/which-key')
-require('config/settings/symlink')
+  -- Hotkeys
+  require('config/local/hotkeys')
 
--- Plugins
-require('config/plugins')
+  -- Settings
+  require('config/local/settings/default')
+  require('config/local/settings/lspconfig')
+  require('config/local/settings/telescope')
+  require('config/local/settings/treesitter')
+  require('config/local/settings/treesitter-context')
+  require('config/local/settings/nvim-tree')
+  require('config/local/settings/toggleterm')
+  require('config/local/settings/bufferline')
+  require('config/local/settings/comment')
+  require('config/local/settings/nvim-autopairs')
+  require('config/local/settings/cmp')
+  require('config/local/settings/gitsigns')
+  require('config/local/settings/hop')
+  require('config/local/settings/indent-blankline')
+  require('config/local/settings/lualine')
+  require('config/local/settings/which-key')
+  require('config/local/settings/symlink')
+
+  -- Plugins
+  require('config/local/plugins')
+end
+
+-- Initialize Configs
+if vim.g.vscode then
+  vsc_config()
+else
+  local_config()
+end
