@@ -11,32 +11,32 @@ end
 -- Local Config
 local function local_config()
   -- Themes
-  require('config/local/theme')
+  require('config/nvim/theme')
 
   -- Hotkeys
-  require('config/local/hotkeys')
+  require('config/nvim/hotkeys')
 
   -- Settings
-  require('config/local/settings/default')
-  require('config/local/settings/lspconfig')
-  require('config/local/settings/telescope')
-  require('config/local/settings/treesitter')
-  require('config/local/settings/treesitter-context')
-  require('config/local/settings/nvim-tree')
-  require('config/local/settings/toggleterm')
-  require('config/local/settings/bufferline')
-  require('config/local/settings/comment')
-  require('config/local/settings/nvim-autopairs')
-  require('config/local/settings/cmp')
-  require('config/local/settings/gitsigns')
-  require('config/local/settings/hop')
-  require('config/local/settings/indent-blankline')
-  require('config/local/settings/lualine')
-  require('config/local/settings/which-key')
-  require('config/local/settings/symlink')
+  require('config/nvim/settings/default')
+  require('config/nvim/settings/lspconfig')
+  require('config/nvim/settings/telescope')
+  require('config/nvim/settings/treesitter')
+  require('config/nvim/settings/treesitter-context')
+  require('config/nvim/settings/nvim-tree')
+  require('config/nvim/settings/toggleterm')
+  require('config/nvim/settings/bufferline')
+  require('config/nvim/settings/comment')
+  require('config/nvim/settings/nvim-autopairs')
+  require('config/nvim/settings/cmp')
+  require('config/nvim/settings/gitsigns')
+  require('config/nvim/settings/hop')
+  require('config/nvim/settings/indent-blankline')
+  require('config/nvim/settings/lualine')
+  require('config/nvim/settings/which-key')
+  require('config/nvim/settings/symlink')
 
   -- Plugins
-  require('config/local/plugins')
+  require('config/nvim/plugins')
 end
 
 -- Initialize Configs
