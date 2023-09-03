@@ -1,3 +1,9 @@
+-- Global Config
+local function global_config()
+  -- Hotkeys
+  require('config/global/hotkeys')
+end
+
 -- VSCode Config
 local function vsc_config()
 end
@@ -34,6 +40,7 @@ local function local_config()
 end
 
 -- Initialize Configs
+global_config()
 if vim.g.vscode then
   vsc_config()
 else

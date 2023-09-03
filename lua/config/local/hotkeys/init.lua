@@ -11,11 +11,11 @@ function map(mode, lhs, rhs, opts)
   vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 
--- Initialize Whickey
-local wk = require("which-key")
-
 -- Change mapleader
 let.mapleader = ' '
+
+-- Initialize Whickey
+local wk = require("which-key")
 
 -- Control Shortcuts
 map('', '<C-\\>', ':NvimTreeToggle<CR>', { silent = true })
