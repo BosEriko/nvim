@@ -20,9 +20,6 @@ set.backspace = 'indent,eol,start'
 set.number = true
 set.relativenumber = true
 
--- Use global clipboard
-set.clipboard = 'unnamed'
-
 -- Save undos
 set.undofile = true
 

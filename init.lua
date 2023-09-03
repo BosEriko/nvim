@@ -2,6 +2,9 @@
 local function global_config()
   -- Hotkeys
   require('config/global/hotkeys')
+
+  -- Settings
+  require('config/global/settings/default')
 end
 
 -- VSCode Config
