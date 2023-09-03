@@ -11,9 +11,6 @@ function map(mode, lhs, rhs, opts)
   vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 
--- Change mapleader
-let.mapleader = ' '
-
 -- Initialize Whickey
 local wk = require("which-key")
 
@@ -37,7 +34,6 @@ map('n', '<leader>d', ':DD<CR>', { silent = true })
 map('n', '<leader>e', ':PackerSync<CR>', { silent = true })
 map('n', '<leader>g', ':Gitsigns blame_line<CR>', { silent = true })
 map('n', '<leader>l', ':set list!<CR>', { silent = true })
-map('n', '<leader>n', ':noh<CR>', { silent = true })
 map('n', '<leader>o', ":'<,'>!tac<CR>", { silent = true })
 map('n', '<leader>r', ':g/^/m0<CR>', { silent = true })
 map('n', '<leader>f', ':HopChar1<CR>', { silent = true })
