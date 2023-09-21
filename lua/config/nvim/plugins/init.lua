@@ -23,7 +23,7 @@ end
 vim.cmd([[
 augroup packer_user_config
 autocmd!
-autocmd BufWritePost ~/.files/config/.config/nvim/lua/config/plugins/init.lua source <afile> | PackerSync
+autocmd BufWritePost ~/.files/config/.config/nvim/lua/config/nvim/plugins/init.lua source <afile> | PackerSync
 augroup end
 ]])
 
@@ -51,6 +51,14 @@ return packer.startup(function(use)
   use 'nvim-lua/plenary.nvim'
   use 'kyazdani42/nvim-web-devicons'
 
+  -- Language Server Protocol
+  use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-cmdline'
+  use 'hrsh7th/nvim-cmp'
+
   ------------------------------------------------------------------------------- [PLUGINS START] --
 
   -- Nvim Plugins
@@ -69,12 +77,6 @@ return packer.startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'                         -- Treesitter (Syntax highlight and other things)
   use 'nvim-treesitter/nvim-treesitter-context'                 -- Treesitter Context (See where you are easilly)
   use 'windwp/nvim-autopairs'                                   -- Autopairs for neovim written in lua
-  use 'neovim/nvim-lspconfig'                                   -- Language Server Protocol
-  use 'hrsh7th/cmp-nvim-lsp'                                    -- Language Server Protocol
-  use 'hrsh7th/cmp-buffer'                                      -- Language Server Protocol
-  use 'hrsh7th/cmp-path'                                        -- Language Server Protocol
-  use 'hrsh7th/cmp-cmdline'                                     -- Language Server Protocol
-  use 'hrsh7th/nvim-cmp'                                        -- Language Server Protocol
 
   --------------------------------------------------------------------------------- [PLUGINS END] --
 
