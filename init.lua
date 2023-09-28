@@ -7,7 +7,7 @@ local function global_config()
   require('config/global/settings/default')
 end
 
--- VSCode Config
+-- VSCodium Config
 local function vsc_config()
 end
 
