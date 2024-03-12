@@ -68,14 +68,14 @@ return packer.startup(function(use)
   use {'numToStr/Comment.nvim', commit = '0236521'}                                                -- Comment out function
   use {'lukas-reineke/indent-blankline.nvim', commit = '9637670'}                                  -- Indent lines
   use {'lewis6991/gitsigns.nvim', commit = '41dc075'}                                              -- Super fast git decorations implemented purely in lua/teal.
-  use {'phaazon/hop.nvim', commit = '1a1ecea'}                                                     -- Easymotion
+  use {'phaazon/hop.nvim', commit = '90db1b2'}                                                     -- Easymotion
   use {'Mofiqul/dracula.nvim', commit = '8d8bddb'}                                                 -- Dracula colorscheme for NEOVIM written in Lua
   use {'nvim-lualine/lualine.nvim', commit = '3c55675'}                                            -- A blazing fast and easy to configure Neovim statusline written in Lua
   use {'akinsho/toggleterm.nvim', commit = '193786e'}                                              -- A neovim plugin to persist and toggle multiple terminals
   use {'folke/which-key.nvim', commit = '4433e5e'}                                                 -- Displays a popup with possible key bindings
   use {'romainl/vim-devdocs', commit = '85a98b8'}                                                  -- API Lookup
-  use {'nvim-treesitter/nvim-treesitter', commit = 'f197a15'}                                      -- Treesitter (Syntax highlight and other things)
-  use {'nvim-treesitter/nvim-treesitter-context', commit = 'b8b7e52'}                              -- Treesitter Context (See where you are easilly)
+  use {'nvim-treesitter/nvim-treesitter', commit = 'cc360a9'}                                      -- Treesitter (Syntax highlight and other things)
+  use {'nvim-treesitter/nvim-treesitter-context', commit = '6795de0'}                              -- Treesitter Context (See where you are easilly)
   use {'windwp/nvim-autopairs', commit = 'c6139ca'}                                                -- Autopairs for neovim written in lua
 
   --------------------------------------------------------------------------------- [PLUGINS END] --
