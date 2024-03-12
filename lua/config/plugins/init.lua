@@ -62,7 +62,7 @@ return packer.startup(function(use)
   ------------------------------------------------------------------------------- [PLUGINS START] --
 
   -- Nvim Plugins
-  use 'kyazdani42/nvim-tree.lua'                                      -- Tree Explorer
+  use {'kyazdani42/nvim-tree.lua', tag = 'compat-nvim-0.7'}           -- Tree Explorer
   use 'akinsho/bufferline.nvim'                                       -- Top bar list
   use {'nvim-telescope/telescope.nvim', tag = '0.1.1'}                -- Fuzzy Finder and Word Search
   use 'numToStr/Comment.nvim'                                         -- Comment out function
@@ -74,7 +74,7 @@ return packer.startup(function(use)
   use { 'akinsho/toggleterm.nvim', tag = '*' }                        -- A neovim plugin to persist and toggle multiple terminals
   use 'folke/which-key.nvim'                                          -- Displays a popup with possible key bindings
   use 'romainl/vim-devdocs'                                           -- API Lookup
-  use { 'nvim-treesitter/nvim-treesitter',  tag = 'v0.9.0' }          -- Treesitter (Syntax highlight and other things)
+  use { 'nvim-treesitter/nvim-treesitter',  tag = 'v0.9.2' }          -- Treesitter (Syntax highlight and other things)
   use 'nvim-treesitter/nvim-treesitter-context'                       -- Treesitter Context (See where you are easilly)
   use 'windwp/nvim-autopairs'                                         -- Autopairs for neovim written in lua
 
