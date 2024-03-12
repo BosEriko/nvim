@@ -74,7 +74,7 @@ return packer.startup(function(use)
   use { 'akinsho/toggleterm.nvim', tag = '*' }                        -- A neovim plugin to persist and toggle multiple terminals
   use 'folke/which-key.nvim'                                          -- Displays a popup with possible key bindings
   use 'romainl/vim-devdocs'                                           -- API Lookup
-  use { 'nvim-treesitter/nvim-treesitter',  tag = 'v0.9.1' }          -- Treesitter (Syntax highlight and other things)
+  use { 'nvim-treesitter/nvim-treesitter',  tag = 'v0.9.0' }          -- Treesitter (Syntax highlight and other things)
   use 'nvim-treesitter/nvim-treesitter-context'                       -- Treesitter Context (See where you are easilly)
   use 'windwp/nvim-autopairs'                                         -- Autopairs for neovim written in lua
 
