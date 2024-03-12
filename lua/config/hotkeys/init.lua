@@ -11,6 +11,9 @@ function map(mode, lhs, rhs, opts)
   vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 
+-- Change mapleader
+let.mapleader = ' '
+
 -- Initialize Whickey
 local wk = require("which-key")
 
@@ -29,7 +32,9 @@ map('', '<C-g>', ':%s/old/new/g')
 map('', '<C-p>', ':Telescope find_files<CR>', { silent = true })
 map('', '<C-z>', '<Cmd>exe v:count1 . "ToggleTerm"<CR>', { silent = true })
 
+
 -- Leader Shortcuts
+map('n', '<leader>n', ':noh<CR>', { silent = true })
 map('n', '<leader>d', ':DD<CR>', { silent = true })
 map('n', '<leader>e', ':PackerSync<CR>', { silent = true })
 map('n', '<leader>g', ':Gitsigns blame_line<CR>', { silent = true })

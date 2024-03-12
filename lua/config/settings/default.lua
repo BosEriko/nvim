@@ -4,6 +4,9 @@
 -- Make it more like vimrc
 local set = vim.opt
 
+-- Use global clipboard
+set.clipboard = 'unnamed'
+
 -- Set utf-8
 set.encoding = 'utf-8'
 
