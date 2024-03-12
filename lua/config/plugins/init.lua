@@ -75,7 +75,7 @@ return packer.startup(function(use)
   use {'folke/which-key.nvim', commit = '4433e5e'}                                                 -- Displays a popup with possible key bindings
   use {'romainl/vim-devdocs', commit = '85a98b8'}                                                  -- API Lookup
   use {'nvim-treesitter/nvim-treesitter', commit = 'cc360a9'}                                      -- Treesitter (Syntax highlight and other things)
-  use {'nvim-treesitter/nvim-treesitter-context', commit = '6795de0'}                              -- Treesitter Context (See where you are easilly)
+  use {'nvim-treesitter/nvim-treesitter-context', commit = '895ec44'}                              -- Treesitter Context (See where you are easilly)
   use {'windwp/nvim-autopairs', commit = 'c6139ca'}                                                -- Autopairs for neovim written in lua
 
   --------------------------------------------------------------------------------- [PLUGINS END] --
