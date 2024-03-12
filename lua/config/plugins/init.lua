@@ -62,7 +62,7 @@ return packer.startup(function(use)
   ------------------------------------------------------------------------------- [PLUGINS START] --
 
   -- Nvim Plugins
-  use {'kyazdani42/nvim-tree.lua', tag = 'compat-nvim-0.7'}           -- Tree Explorer
+  use {'kyazdani42/nvim-tree.lua', commit = 'ce3495b'}                -- Tree Explorer
   use 'akinsho/bufferline.nvim'                                       -- Top bar list
   use {'nvim-telescope/telescope.nvim', tag = '0.1.1'}                -- Fuzzy Finder and Word Search
   use 'numToStr/Comment.nvim'                                         -- Comment out function
