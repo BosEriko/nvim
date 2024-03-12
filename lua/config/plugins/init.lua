@@ -62,21 +62,21 @@ return packer.startup(function(use)
   ------------------------------------------------------------------------------- [PLUGINS START] --
 
   -- Nvim Plugins
-  use 'kyazdani42/nvim-tree.lua'                                -- Tree Explorer
-  use 'akinsho/bufferline.nvim'                                 -- Top bar list
-  use {'nvim-telescope/telescope.nvim', tag = '0.1.1'}          -- Fuzzy Finder and Word Search
-  use 'numToStr/Comment.nvim'                                   -- Comment out function
-  use 'lukas-reineke/indent-blankline.nvim'                     -- Indent lines
-  use 'lewis6991/gitsigns.nvim'                                 -- Super fast git decorations implemented purely in lua/teal.
-  use { 'phaazon/hop.nvim',  branch = 'v2' }                    -- Easymotion
-  use 'Mofiqul/dracula.nvim'                                    -- Dracula colorscheme for NEOVIM written in Lua
-  use 'nvim-lualine/lualine.nvim'                               -- A blazing fast and easy to configure Neovim statusline written in Lua
-  use { 'akinsho/toggleterm.nvim', tag = '*' }                  -- A neovim plugin to persist and toggle multiple terminals
-  use 'folke/which-key.nvim'                                    -- Displays a popup with possible key bindings
-  use 'romainl/vim-devdocs'                                     -- API Lookup
-  use 'nvim-treesitter/nvim-treesitter'                         -- Treesitter (Syntax highlight and other things)
-  use 'nvim-treesitter/nvim-treesitter-context'                 -- Treesitter Context (See where you are easilly)
-  use 'windwp/nvim-autopairs'                                   -- Autopairs for neovim written in lua
+  use 'kyazdani42/nvim-tree.lua'                                      -- Tree Explorer
+  use 'akinsho/bufferline.nvim'                                       -- Top bar list
+  use {'nvim-telescope/telescope.nvim', tag = '0.1.1'}                -- Fuzzy Finder and Word Search
+  use 'numToStr/Comment.nvim'                                         -- Comment out function
+  use { 'lukas-reineke/indent-blankline.nvim',  tag = 'v2.20.8' }     -- Indent lines
+  use 'lewis6991/gitsigns.nvim'                                       -- Super fast git decorations implemented purely in lua/teal.
+  use { 'phaazon/hop.nvim',  branch = 'v2' }                          -- Easymotion
+  use 'Mofiqul/dracula.nvim'                                          -- Dracula colorscheme for NEOVIM written in Lua
+  use 'nvim-lualine/lualine.nvim'                                     -- A blazing fast and easy to configure Neovim statusline written in Lua
+  use { 'akinsho/toggleterm.nvim', tag = '*' }                        -- A neovim plugin to persist and toggle multiple terminals
+  use 'folke/which-key.nvim'                                          -- Displays a popup with possible key bindings
+  use 'romainl/vim-devdocs'                                           -- API Lookup
+  use { 'nvim-treesitter/nvim-treesitter',  tag = 'v0.9.1' }          -- Treesitter (Syntax highlight and other things)
+  use 'nvim-treesitter/nvim-treesitter-context'                       -- Treesitter Context (See where you are easilly)
+  use 'windwp/nvim-autopairs'                                         -- Autopairs for neovim written in lua
 
   --------------------------------------------------------------------------------- [PLUGINS END] --
 
