@@ -48,16 +48,16 @@ return packer.startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- Dependency of most plugins
-  use 'nvim-lua/plenary.nvim'
-  use 'kyazdani42/nvim-web-devicons'
+  use {'nvim-lua/plenary.nvim', commit = 'f7adfc4'}
+  use {'kyazdani42/nvim-web-devicons', commit = '75df79f'}
 
   -- Language Server Protocol
-  use 'neovim/nvim-lspconfig'
-  use 'hrsh7th/cmp-nvim-lsp'
-  use 'hrsh7th/cmp-buffer'
-  use 'hrsh7th/cmp-path'
-  use 'hrsh7th/cmp-cmdline'
-  use 'hrsh7th/nvim-cmp'
+  use {'neovim/nvim-lspconfig', commit = '4bdd380'}
+  use {'hrsh7th/cmp-nvim-lsp', commit = '5af77f5'}
+  use {'hrsh7th/cmp-buffer', commit = '3022dbc'}
+  use {'hrsh7th/cmp-path', commit = '91ff86c'}
+  use {'hrsh7th/cmp-cmdline', commit = '8ee981b'}
+  use {'hrsh7th/nvim-cmp', commit = '04e0ca3'}
 
   ------------------------------------------------------------------------------- [PLUGINS START] --
 
