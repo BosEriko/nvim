@@ -28,10 +28,8 @@ map('', '<C-s>', ':w<CR>', { silent = true })
 map('', '<C-k>', ':WhichKey<CR>', { silent = true })
 map('', '<C-b>', ':let @+ = expand("%")<CR>', { silent = true })
 map('', '<C-f>', ':Telescope live_grep<CR>', { silent = true })
-map('', '<C-g>', ':%s/old/new/g')
 map('', '<C-p>', ':Telescope find_files<CR>', { silent = true })
 map('', '<C-z>', '<Cmd>exe v:count1 . "ToggleTerm"<CR>', { silent = true })
-
 
 -- Leader Shortcuts
 map('n', '<leader>n', ':noh<CR>', { silent = true })
@@ -43,6 +41,9 @@ map('n', '<leader>o', ":'<,'>!tac<CR>", { silent = true })
 map('n', '<leader>r', ':g/^/m0<CR>', { silent = true })
 map('n', '<leader>f', ':HopChar1<CR>', { silent = true })
 map('n', '<leader>w', ':set wrap!<CR>', { silent = true })
+
+-- Visual Shortcuts
+map('v', '<C-g>', [["hy:%s/<C-r>h//gc<left><left><left>]], { silent = true })
 
 -- Comments Shortcuts
 require('Comment').setup({
