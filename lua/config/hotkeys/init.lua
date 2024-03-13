@@ -33,7 +33,7 @@ map('', '<C-z>', '<Cmd>exe v:count1 . "ToggleTerm"<CR>', { silent = true })     
 
 -- Leader Shortcuts
 map('n', '<leader>n', ':noh<CR>', { silent = true })                                               -- Remove highlighted text
-map('n', '<leader>d', ':DD<CR>', { silent = true })                                                -- Delete line
+map('n', '<leader>d', ':DD<CR>', { silent = true })                                                -- Search Devdocs on cursor position
 map('n', '<leader>e', ':PackerSync<CR>', { silent = true })                                        -- Update Packer packages
 map('n', '<leader>g', ':Gitsigns blame_line<CR>', { silent = true })                               -- Show Git blame for current line
 map('n', '<leader>l', ':set list!<CR>', { silent = true })                                         -- Toggle display of hidden characters
