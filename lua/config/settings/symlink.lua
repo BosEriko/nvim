@@ -5,6 +5,6 @@
 vim.cmd([[
 augroup glazewm_config
 autocmd!
-autocmd BufWritePost ~/.files/glazewm/config.yaml !rm /mnt/c/Users/Bos/.glaze-wm/config.yaml && cp ~/.files/glazewm/config.yaml /mnt/c/Users/Bos/.glaze-wm/config.yaml
+autocmd BufWritePost ~/.files/glazewm/config.yaml !~/.files/scripts/update-glazewm-yaml.sh
 augroup end
 ]])
