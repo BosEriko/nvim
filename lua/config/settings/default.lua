@@ -4,8 +4,9 @@
 -- Make it more like vimrc
 local set = vim.opt
 
+-- NOTE: Disabling for now because it uses 100% cpu usage when yanking and pasting
 -- Use global clipboard
-set.clipboard = 'unnamed'
+-- set.clipboard = 'unnamed'
 
 -- Set utf-8
 set.encoding = 'utf-8'
