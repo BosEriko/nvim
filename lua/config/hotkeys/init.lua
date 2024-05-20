@@ -24,7 +24,7 @@ map('', '<C-h>', ':bp!<CR>', { silent = true })                                 
 map('', '<C-l>', ':bn!<CR>', { silent = true })                                                    -- Next buffer
 map('', '<C-x>', ':bd<CR>', { silent = true })                                                     -- Close buffer
 map('', '<C-q>', ':q<CR>', { silent = true })                                                      -- Quit
-map('', '<C-s>', ':w<CR>', { silent = true })                                                      -- Save
+map('', '<C-s>', ':w!<CR>', { silent = true })                                                      -- Save
 map('', '<C-k>', ':WhichKey<CR>', { silent = true })                                               -- Show key mappings
 map('', '<C-b>', ':let @+ = expand("%")<CR>', { silent = true })                                   -- Copy current file path to clipboard
 map('', '<C-f>', ':Telescope live_grep<CR>', { silent = true })                                    -- Live grep
