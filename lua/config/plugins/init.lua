@@ -77,6 +77,7 @@ return packer.startup(function(use)
   use {'nvim-treesitter/nvim-treesitter', commit = 'cc360a9'}                                      -- Treesitter (Syntax highlight and other things)
   use {'nvim-treesitter/nvim-treesitter-context', commit = '895ec44'}                              -- Treesitter Context (See where you are easilly)
   use {'windwp/nvim-autopairs', commit = 'c6139ca'}                                                -- Autopairs for neovim written in lua
+  use {'m4xshen/hardtime.nvim', commit = 'e560175'}                                                -- A Neovim plugin helping you establish good command workflow and quit bad habit
 
   --------------------------------------------------------------------------------- [PLUGINS END] --
 
