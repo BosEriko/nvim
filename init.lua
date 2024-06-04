@@ -22,7 +22,6 @@ require('config/settings/indent-blankline')
 require('config/settings/lualine')
 require('config/settings/which-key')
 require('config/settings/symlink')
-require('config/settings/hardtime')
 
 -- Plugins
 require('config/plugins')
