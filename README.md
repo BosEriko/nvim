@@ -1,15 +1,18 @@
-# BosEriko's nvim
+# BosEriko's nvim\
+
+## Install Neovim
+```sh
+brew install neovim
+```
+
 ## Install the config
-
 Make sure to remove or move your current `nvim` directory
-
 ```sh
 git clone https://github.com/BosEriko/nvim.git ~/.config/nvim
 ```
 
 ## Get healthy
 Open `nvim` and enter the following:
-
 ```
 :checkhealth
 ```
