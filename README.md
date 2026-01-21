@@ -1,4 +1,4 @@
-# BosEriko's nvim\
+# BosEriko's Neovim
 
 ## Install Neovim
 ```sh
