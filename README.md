@@ -67,3 +67,10 @@ nvim:update
 
 ## Note
 Make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).
+
+## Enable Repeated Keys (macOS)
+Enable repeated keys to avoid pop up on key hold with the following:
+```sh
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
+*Note: Restart to make it take effect*
