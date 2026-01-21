@@ -21,7 +21,6 @@ require('config/settings/hop')
 require('config/settings/indent-blankline')
 require('config/settings/lualine')
 require('config/settings/which-key')
-require('config/settings/symlink')
 
 -- Plugins
 require('config/plugins')
