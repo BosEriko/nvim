@@ -1,5 +1,5 @@
--- Themes
-require('config/theme')
+-- Plugins
+require('config/plugins')
 
 -- Hotkeys
 require('config/hotkeys')
@@ -22,5 +22,5 @@ require('config/settings/indent-blankline')
 require('config/settings/lualine')
 require('config/settings/which-key')
 
--- Plugins
-require('config/plugins')
+-- Themes
+require('config/theme')
